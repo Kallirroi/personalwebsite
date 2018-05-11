@@ -1,21 +1,36 @@
 .postMain {
-	margin: 2vh 0;
+	margin: 2vh 0 4vh 0;
 	/*border: 1px solid red;*/
 	line-height: 1.5;
-	max-width: 80vw;
+	max-width: 50vw;
 	margin: 0 auto;
-	text-align: center;
 }
 
 .postMain > .postTitle {
 	/*font-weight: bold;*/
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .postMain > .postBody {
 	color: #000;
+	text-align: left;
+	margin-top: 8vh;
 }
 
 .postBody > p  > a {
+	font-weight: 500;
+}
+
+.postBody > ul {
+	margin: 0;
+}
+
+.postBody > ul > li , .postBody > ul > li > p {
+	margin: 0;
+	padding: 0;
+}
+
+.postBody > h4 {
 	font-weight: 500;
 }
