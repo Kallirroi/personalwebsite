@@ -7,19 +7,19 @@ class Template extends React.Component {
     let header
     if (location.pathname === '/') {
       header = (
-        <h1>
+        <div style={{ textDecoration: "underline", marginBottom: "3vh"}}>
           <Link to={'/'} >
             Kalli Retzepi
           </Link>
-        </h1>
+        </div>
       )
     } else {
       header = (
-        <h3>
+        <div style={{ textDecoration: "underline", marginBottom: "3vh" }}>
           <Link to={'/'}>
             Kalli Retzepi
           </Link>
-        </h3>
+        </div>
       )
     }
     return (

@@ -2,19 +2,19 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-
+import "../styles/posts.css";
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
 
     return (
-      <div>
+      <div className="postMain">
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="postTitle">{post.frontmatter.title}</div>
+        <div className="postTag">{post.frontmatter.tag}</div>
+        <div className="postBody" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     )
   }
@@ -36,6 +36,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tag
       }
     }
   }

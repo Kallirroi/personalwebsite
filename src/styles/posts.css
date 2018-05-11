@@ -1,0 +1,12 @@
+.postMain {
+	margin: 2vh 0;
+	border: 1px solid red;
+}
+
+.postMain > .postTitle {
+	font-weight: bold;
+}
+
+.postMain > .postBody {
+	color: #000;
+}

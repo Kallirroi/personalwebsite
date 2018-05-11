@@ -1,0 +1,38 @@
+/*------------------------general------------------------*/
+@font-face {
+    font-family: 'Inter UI';
+	src: url('https://rsms.me/inter/inter-ui.css')
+}
+
+@font-face {
+	font-family: 'Unica';
+    src: url('https://www.dropbox.com/s/6wm1b55uuuvjcl9/neue-haas-unica-pro-regular.ttf?dl=1');
+}
+
+body {
+	font-family: 'system-ui', sans-serif;
+	font-size: 0.9rem;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #000;
+}
+
+/*------------------------specific------------------------*/
+
+.index  > .postThumbnail {
+	margin: 1vh 0;
+	border: 1px solid;
+}
+
+.index > .about {
+	margin-top: 2vh;
+	border: 1px solid green;
+}
