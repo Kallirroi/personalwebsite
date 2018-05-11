@@ -10,16 +10,19 @@
 }
 
 body {
-	font-family: 'system-ui', sans-serif;
-	font-size: 0.9rem;
+	font-family: 'Inter UI', 'system-ui', sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: normal;
+	margin: 10vh 0;
 }
+
 a {
 	text-decoration: none;
 	color: #000;
-	font-weight: normal;
 }
 a:hover {
-	text-decoration: underline;
+	font-weight: 500;
 }
 a:visited {
 	color: #000;
@@ -27,12 +30,38 @@ a:visited {
 
 /*------------------------specific------------------------*/
 
+.pageTitle {
+	margin: 0 auto;
+	max-width: 90vw;
+	padding-bottom: 4vh;
+}
+
+.pageTitle > a {
+	/*color: red;*/
+	font-weight: 500;
+}
+
+.index {
+	/*border: 1px solid;*/
+	max-width: 90vw;
+	margin: 0 auto;
+}
+
 .index  > .postThumbnail {
-	margin: 1vh 0;
-	border: 1px solid;
+	margin: 1.3vh 0;
+	border-bottom: 1.5px solid;
+}
+
+.index  > .postThumbnail > .tagThumbnail {
+	float: right;
+	/*color: rgba(0,0,0,0.5);*/
 }
 
 .index > .about {
-	margin-top: 2vh;
-	border: 1px solid green;
+	/*border: 1px solid;*/
+	padding-top: 4vh;
+}
+
+.index > .about > a {
+	color: red;
 }

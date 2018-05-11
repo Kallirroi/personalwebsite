@@ -1,12 +1,19 @@
 .postMain {
 	margin: 2vh 0;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	line-height: 1.5;
+	max-width: 90vw;
+	margin: 0 auto;
+	overflow-y: scroll;
 }
 
 .postMain > .postTitle {
-	font-weight: bold;
+	/*font-weight: bold;*/
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .postMain > .postBody {
 	color: #000;
+	text-align: center;
 }

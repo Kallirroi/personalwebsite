@@ -13,7 +13,6 @@ class BlogPostTemplate extends React.Component {
       <div className="postMain">
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <div className="postTitle">{post.frontmatter.title}</div>
-        <div className="postTag">{post.frontmatter.tag}</div>
         <div className="postBody" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     )

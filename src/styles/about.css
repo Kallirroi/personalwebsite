@@ -1,4 +1,7 @@
 .aboutText {
 	margin: 2vh 0;
-	border: 1px solid green;
+	max-height: 80vh;
+	max-width: 90vw;
+	margin: 0 auto;
+	overflow-y: scroll;
 }

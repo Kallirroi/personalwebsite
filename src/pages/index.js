@@ -18,8 +18,9 @@ class BlogIndex extends React.Component {
           return (
             <div className="postThumbnail" key={node.fields.slug}>
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                {title} | {tag}
+                {title}
               </Link>
+              <div className="tagThumbnail">{tag}</div>
             </div>
           )
         })}
