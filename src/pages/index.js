@@ -10,23 +10,25 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div className="index">
-        <Helmet title={siteTitle} />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          const tag = get(node, 'frontmatter.tag') || node.fields.slug
-          return (
-            <div className="postThumbnail" key={node.fields.slug}>
-              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                {title}
-              </Link>
-              <div className="tagThumbnail">{tag}</div>
-            </div>
-          )
-        })}
+      <div>
+        <div className="index">
+          <Helmet title={siteTitle} />
+          {posts.map(({ node }) => {
+            const title = get(node, 'frontmatter.title') || node.fields.slug
+            const tag = get(node, 'frontmatter.tag') || node.fields.slug
+            return (
+              <div className="postThumbnail" key={node.fields.slug}>
+                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                  {title}
+                </Link>
+                <div className="tagThumbnail">{tag}</div>
+              </div>
+            )
+          })}
+        </div>
         <div className="about">
           <Link to="/about/">about</Link>
-        </div>
+        </div>        
       </div>
     )
   }

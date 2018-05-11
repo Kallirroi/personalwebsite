@@ -1,6 +1,6 @@
 ---
 title: for our brain vs like our brain
-date: "2018-05-11T22:40:32.169Z"
+date: "2018-01-11T22:40:32.169Z"
 tag: thoughts
 ---
 

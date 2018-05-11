@@ -8,5 +8,5 @@ We really believe in the power of storytelling, and in community, so we designed
 
 You can read more in the <a href="https://thebenches.media.mit.edu/" target="_blank">official project website</a>.
 
-![altcaption](process.gif)
+![altcaption](process2.gif)
 
