@@ -2,18 +2,20 @@
 	margin: 2vh 0;
 	/*border: 1px solid red;*/
 	line-height: 1.5;
-	max-width: 90vw;
+	max-width: 80vw;
 	margin: 0 auto;
-	overflow-y: scroll;
+	text-align: center;
 }
 
 .postMain > .postTitle {
 	/*font-weight: bold;*/
-	text-align: center;
 	text-transform: uppercase;
 }
 
 .postMain > .postBody {
 	color: #000;
-	text-align: center;
+}
+
+.postBody > p  > a {
+	font-weight: 500;
 }

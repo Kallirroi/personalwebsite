@@ -11,9 +11,8 @@
 
 body {
 	font-family: 'Inter UI', 'system-ui', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 19px;
-	font-weight: normal;
 	margin: 10vh 0;
 }
 
@@ -21,9 +20,11 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+
 a:hover {
 	font-weight: 500;
 }
+
 a:visited {
 	color: #000;
 }
@@ -48,13 +49,18 @@ a:visited {
 }
 
 .index  > .postThumbnail {
-	margin: 1.3vh 0;
+	margin-bottom: 1vh;
+	padding: 0.2vh 0;
 	border-bottom: 1.5px solid;
+}
+
+.index  > .postThumbnail:hover {
+	border-bottom: 1.5px dashed;
+	/*background: #ccc;*/
 }
 
 .index  > .postThumbnail > .tagThumbnail {
 	float: right;
-	/*color: rgba(0,0,0,0.5);*/
 }
 
 .index > .about {

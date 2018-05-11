@@ -1,7 +1,12 @@
 .aboutText {
 	margin: 2vh 0;
 	max-height: 80vh;
-	max-width: 90vw;
+	max-width: 25vw;
 	margin: 0 auto;
 	overflow-y: scroll;
+}
+
+
+.aboutText > p.aboutLinks  {
+	margin-top: 8vh;
 }
