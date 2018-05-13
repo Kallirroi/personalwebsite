@@ -14,6 +14,6 @@ Start of the night: 699 blocks mined.
 
 ![altcaption](2.jpg)
 
-End of the night: more than 10K blocks minded, and the interface kinda broke.💥💥💥
+End of the night: more than 10K blocks mined, and the interface kinda broke.💥💥💥
 
 ![altcaption](3.jpg)
