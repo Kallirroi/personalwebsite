@@ -13,8 +13,8 @@ body {
 	font-family: 'Inter UI', 'system-ui', sans-serif;
 	font-size: 14px;
 	line-height: 19px;
-	margin: 10vh 0;
 	overflow-y: hidden;
+	cursor: url(cursor.png), auto;
 }
 
 a {
@@ -24,6 +24,7 @@ a {
 
 a:hover {
 	font-weight: 500;
+	cursor: url(cursorHover.png), auto;
 }
 
 a:visited {
@@ -35,6 +36,7 @@ a:visited {
 .pageTitle {
 	margin: 0 auto;
 	max-width: 90vw;
+	padding-top: 10vh;
 	padding-bottom: 4vh;
 }
 
@@ -74,3 +76,4 @@ a:visited {
 .about > a {
 	color: red;
 }
+
