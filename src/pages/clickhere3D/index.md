@@ -4,7 +4,7 @@ date: "2018-05-14T22:40:32.169Z"
 tag: personal project
 ---
 
-Following up the "clickHere" exploration (screenshot below), I decided to turn to Rhino and try to create 3D models of the images.
+Following up the "clickhere" exploration (image below), I decided to turn to Rhino and try to create 3D models of the images.
 
 ![altcaption](googleinput.png)
 
