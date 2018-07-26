@@ -9,10 +9,6 @@
     src: url('https://www.dropbox.com/s/6wm1b55uuuvjcl9/neue-haas-unica-pro-regular.ttf?dl=1');
 }
 
-@font-face {
-	font-family: 'Recta-Regular';
-	src: url('./recta.woff');
-}
 
 body {
 	font-family: 'Inter UI', 'system-ui', sans-serif;
