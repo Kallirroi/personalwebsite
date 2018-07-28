@@ -19,6 +19,9 @@
 	color: #000;
 	text-align: left;
 	margin-top: 8vh;
+	margin-bottom: 20vh;
+	/*border: 1px solid red;*/
+
 }
 
 .postBody > p  > a {
