@@ -8,16 +8,13 @@ class Template extends React.Component {
     if (location.pathname === '/') {
       header = (
         <div className="pageTitle">
-          <Link to={'/'} >
-            KALLI RETZEPI
-          </Link>
         </div>
       )
     } else {
       header = (
         <div className="pageTitle">
           <Link to={'/'}>
-            KALLI RETZEPI
+            back
           </Link>
         </div>
       )

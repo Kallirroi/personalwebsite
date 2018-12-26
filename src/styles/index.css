@@ -6,15 +6,15 @@
 
 @font-face {
 	font-family: 'Unica';
-    src: url('https://www.dropbox.com/s/6wm1b55uuuvjcl9/neue-haas-unica-pro-regular.ttf?dl=1');
+    src: url(unica.ttf);
 }
 
 
 body {
-	font-family: 'Inter UI', 'system-ui', sans-serif;
-	font-size: 14px;
-	line-height: 19px;
-	overflow-y: hidden;
+	font-family: 'Unica', 'system-ui', sans-serif;
+	font-size: 35px;
+	line-height: 50px;
+	overflow-y: scroll;
 	cursor: url(cursor.png), auto;
 }
 
@@ -24,7 +24,6 @@ a {
 }
 
 a:hover {
-	font-weight: 500;
 	cursor: url(cursorHover.png), auto;
 }
 
@@ -34,32 +33,21 @@ a:visited {
 
 /*------------------------index------------------------*/
 
-.pageTitle {
-	margin: 0 auto;
-	max-width: 90vw;
-	padding-top: 10vh;
-	padding-bottom: 4vh;
-}
-
-.pageTitle > a {
-	font-weight: 500;
-}
 
 .index {
 	max-width: 90vw;
 	margin: 0 auto;
-	max-height: 70vh;
+	max-height: 79vh;
 	overflow-y: scroll;
 }
 
 .index  > .postThumbnail {
-	margin-bottom: 1vh;
-	padding: 0.2vh 0;
-	border-bottom: 1.5px solid;
+	border-bottom: 5px solid #fff;
+  width: 89vw;
 }
 
 .index  > .postThumbnail:hover {
-	border-bottom: 1.5px dashed;
+	border-bottom: 5px solid;
 }
 
 .index  > .postThumbnail > .tagThumbnail {
@@ -69,12 +57,12 @@ a:visited {
 /*------------------------about------------------------*/
 
 .about {
-	padding-top: 4vh;
 	max-width: 90vw;
 	margin: 0 auto;
+  padding-top: 3vh;
+  /* padding-bottom: 4vh; */
 }
 
 .about > a {
 	color: red;
 }
-

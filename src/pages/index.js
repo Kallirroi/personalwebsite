@@ -27,8 +27,8 @@ class BlogIndex extends React.Component {
           })}
         </div>
         <div className="about">
-          <Link to="/about/">about</Link>
-        </div>        
+          <Link to="/about/">about Kalli</Link>
+        </div>
       </div>
     )
   }
