@@ -5,12 +5,6 @@
 	overflow-y: scroll;
 }
 
-.aboutText > p {
-	font-size: 35px;
-	line-height: 50px;
-}
-
-
 .aboutText > p.aboutLinks  {
 	margin-top: 3vh;
 }
