@@ -2,6 +2,7 @@
 title: art in the time of the neural net
 date: "2018-01-11T22:40:32.169Z"
 tag: thoughts
+isHidden: yes
 ---
 
 I have a lot of problems with <a href="https://mobile.twitter.com/zzznah/status/941726890628444162" target="_blank">this thread</a>.
@@ -15,4 +16,4 @@ Secondly, can you imagine what it means to have Google officially brand the abov
 
 One could say that this can be framed as “creative misuse of algorithms”. I think that the intentions behind the author are good and moral and everything - however, given the power and hype being piled behind the name “AI” and “deep net”, there needs to be more responsability and thought before labeling ANYTHING - but particularly before labeling it “art”.
 
-How do we build a healthy dialogue of critique with the tech giants, when at any time they can decide that they want to redefine everything, even Art and Culture - and do so behind closed doors? 
+How do we build a healthy dialogue of critique with the tech giants, when at any time they can decide that they want to redefine everything, even Art and Culture - and do so behind closed doors?

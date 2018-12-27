@@ -2,6 +2,7 @@
 title: culture wars
 date: "2018-04-11T22:40:32.169Z"
 tag: thoughts
+isHidden: yes
 ---
 
 Read <a href="https://www.ribbonfarm.com/2018/03/06/a-quick-battle-field-guide-to-the-new-culture-wars/" target="_blank">this article</a>! I have no time, so just throwing my thoughts here for personal reference:
@@ -10,15 +11,15 @@ Read <a href="https://www.ribbonfarm.com/2018/03/06/a-quick-battle-field-guide-t
 
 - culture wars are not a solely American symptom, and I don’t think the solution will come from America alone. If we are talking about slowing down the toxic Silicon Valley culture, I think policy can help, and that can only happen outside the US.
 
-- speaking of policy-related changes, there are a lot of discussions at the Lab about “polarization is bad, lets fix it” but honestly no one has come up with a good idea yet. There recently was this: https://www.cortico.ai/blog/2018/2/29/public-sphere-health-indicators but I think they want to be poking at the problem rather than fundamentally solve it. 
+- speaking of policy-related changes, there are a lot of discussions at the Lab about “polarization is bad, lets fix it” but honestly no one has come up with a good idea yet. There recently was this: https://www.cortico.ai/blog/2018/2/29/public-sphere-health-indicators but I think they want to be poking at the problem rather than fundamentally solve it.
 
-The culture wars on the blogosphere is an enormous source of revenue for so many different players in the game - and that’s why I am not very hopeful it can be solved from within the US. 
+The culture wars on the blogosphere is an enormous source of revenue for so many different players in the game - and that’s why I am not very hopeful it can be solved from within the US.
 
-- his attitude is very militant, but I know people who are far better off being disconnected. Does it matter if someone thinks they are “victims” ? I see it as they are healthy, and they are inactive nodes in networks were nodes = power. “If you are not with us, you are against us” is a false dichotomy in this case - if half of Facebook’s or Twitter’s users suddenly decided they were bored and logged off for a day, putting all clicks on pause, the news algorithm would go nuts and definitely influence the other half that was still logged in. 
+- his attitude is very militant, but I know people who are far better off being disconnected. Does it matter if someone thinks they are “victims” ? I see it as they are healthy, and they are inactive nodes in networks were nodes = power. “If you are not with us, you are against us” is a false dichotomy in this case - if half of Facebook’s or Twitter’s users suddenly decided they were bored and logged off for a day, putting all clicks on pause, the news algorithm would go nuts and definitely influence the other half that was still logged in.
 
 More specific phrases that grabbed my attention:
 
-- “a condition of monstrously metastasized hyperdemocracy”- that phrase is golden. 
+- “a condition of monstrously metastasized hyperdemocracy”- that phrase is golden.
 
 - “We are in the 3-30 years range here. Judgements about which ideologies can grow, go mainstream, and exist sustainably as part of the institutional landscape become much easier if you think 30 years out instead of 3. Very few ideologies have the legs to last long. Most are just good for a few years of bloody skirmishing, not for building lives around.”
 

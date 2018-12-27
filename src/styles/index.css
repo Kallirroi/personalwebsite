@@ -41,7 +41,12 @@ a:visited {
 	overflow-y: scroll;
 }
 
+.index > .postThumbnail-hidden {
+  display: none;
+}
+
 .index  > .postThumbnail {
+  display: block;
 	border-bottom: 5px solid #fff;
   width: 89vw;
 }
@@ -52,7 +57,7 @@ a:visited {
 
 .index  > .postThumbnail > .tagThumbnail {
 	float: right;
-  display: visible;
+  display: block;
 }
 
 /*------------------------about------------------------*/
