@@ -9,3 +9,5 @@ In Cuba, the Internet has another name, and it fits in the palm of your hand. It
 The main motivation behind my thesis proposal is twofold. Firstly, can we eliminate centralization when it’s not necessary? Secondly, can we design and engineer distributed digital tools that promote community connectedness using storytelling? Leveraging the current momentum of peer-to-peer Internet protocols (dat, IPFS, Secure Scuttlebutt), I believe that we can start building prototypes that provide answers to the above.
 
 I am using the thesis as an opportunity to participate <a href="https://www.are.na/alex-singh/pwr01-projects" target="_blank">in this experiment</a>. You can follow my progress <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here </a>.
+
+![altcaption](grid.gif)

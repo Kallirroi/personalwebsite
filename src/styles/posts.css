@@ -18,6 +18,11 @@
 	overflow-y: scroll;
 }
 
+.postBody > p > img {
+	margin: 0 auto;
+	display: block;
+}
+
 .postMain > .postTitle {
 	/*font-weight: bold;*/
 	text-transform: uppercase;
