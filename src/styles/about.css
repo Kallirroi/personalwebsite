@@ -4,6 +4,10 @@
 	overflow-y: scroll;
 }
 
+.aboutText > p > a {
+	border-bottom: 5px solid;
+}
+
 .aboutText > p.aboutLinks  {
 	margin-top: 3vh;
 }
