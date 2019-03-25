@@ -1,6 +1,6 @@
 ---
 title: internet as an object
-date: "2018-27-17T22:40:32.169Z"
+date: "2019-03-25T22:40:32.169Z"
 tag: MIT thesis
 ---
 
