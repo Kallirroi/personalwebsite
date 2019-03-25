@@ -1,6 +1,6 @@
 ---
 title: an analog interface in a digital world
-date: "2019-09-03T22:40:32.169Z"
+date: "2019-03-03T22:40:32.169Z"
 tag: MIT workshop
 ---
 
