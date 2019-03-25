@@ -4,10 +4,15 @@ date: "2019-03-25T22:40:32.169Z"
 tag: MIT thesis
 ---
 
-In Cuba, the Internet has another name, and it fits in the palm of your hand. It is a hard drive called “El Paquete semanal” (The Weekly Package) - a collection of one terabyte of information: shows, movies, music, PDFs, downloaded onto hard drives and distributed door-to-door. Whereas I am certainly not advocating for such a solution to Internet’s problematic features like its hyper-centralization and corporation-driven opaqueness, I do think that it is worth investigating how much we can decentralize the current layers of the Internetic stack.
+I designed, fabricated and deployed a number of objects that capture, play and share in a p2p way audio messages. My motivation is to explore how a small decentralized network, supported by these physical nodes, performs in a real world scenario (in this case, the MIT campus), how the audience interacts with it and whether the nature of information collected by these objects differs from what could be carried by a conventional website. I am curious about the interaction design component, whether users would care about the fact that this is a non-centralized repository of information, and whether they are ready to sacrifice some of their "user comfort" in order to prioritize locality and data ownership.
 
-The main motivation behind my thesis proposal is twofold. Firstly, can we eliminate centralization when it’s not necessary? Secondly, can we design and engineer distributed digital tools that promote community connectedness using storytelling? Leveraging the current momentum of peer-to-peer Internet protocols (dat, IPFS, Secure Scuttlebutt), I believe that we can start building prototypes that provide answers to the above.
+This project is also my Master's thesis at the Media Lab. Lastly, I kept a weekly journal of my progress, which you can find <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here </a>.
 
-I am using the thesis as an opportunity to participate <a href="https://www.are.na/alex-singh/pwr01-projects" target="_blank">in this experiment</a>. You can follow my progress <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here </a>.
-
+<span class="caption">Early stages of design research</span>
 ![altcaption](grid.gif)
+
+<span class="caption">Renderings of objects</span>
+![altcaption](portfolio3.png)
+
+<span class="caption">Objects in the world!</span>
+![altcaption](portfolio4.png)

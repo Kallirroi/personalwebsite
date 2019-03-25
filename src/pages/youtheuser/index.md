@@ -7,26 +7,12 @@ tag: personal project
 How many times does the word "you", or variations of it, get mentioned in the big tech keynote presentations?
 A lot.
 
-
-
-Apple Keynote 2018 - 
-<a href="https://youtheusers.netlify.com/" target="_blank">link</a>
-
-
+<span class="caption">Apple Keynote 2018 - <a href="https://youtheusers.netlify.com/" target="_blank">link</a></span>
 
 ![altcaption](apple.png)
 
-
-
 ![altcaption](3D.png)
 
-
-
-Google 2018 Keynote
-
-
+<span class="caption">Google 2018 Keynote</span>
 
 ![altcaption](google.png)
-
-
-

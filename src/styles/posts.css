@@ -56,3 +56,11 @@
 		width: 90vw;
 	}
 }
+
+
+.caption {
+	font-size: 1.2rem;
+	display: block;
+	/* border: 1px solid; */
+	padding-left: 20vw;
+}
