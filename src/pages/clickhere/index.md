@@ -1,10 +1,10 @@
 ---
 title: clickhere
-date: "2017-08-11T22:40:32.169Z"
+date: "2018-05-11T22:40:32.169Z"
 tag: personal project
 ---
 
-I made a Chrome extension that strips each page down to the most interaction-hungry elements. 
+I made a Chrome extension that strips each page down to the most interaction-hungry elements.
 
 ![altcaption](google.jpg)
 
@@ -27,4 +27,3 @@ I made a Chrome extension that strips each page down to the most interaction-hun
 &nbsp
 
 ![altcaption](ebay.png)
-

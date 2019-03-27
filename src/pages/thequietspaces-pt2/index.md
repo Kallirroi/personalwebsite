@@ -1,5 +1,5 @@
 ---
-title: the quiet spaces - images
+title: the quiet spaces pt2
 date: "2018-08-10T22:40:32.169Z"
 tag: personal project
 ---

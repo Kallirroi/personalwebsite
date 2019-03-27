@@ -1,5 +1,5 @@
 ---
-title: clickhere 3D
+title: clickhere pt2
 date: "2018-05-14T22:40:32.169Z"
 tag: personal project
 ---
@@ -29,4 +29,3 @@ Instagram rendered in 3D:
 
 
 ![altcaption](instagram2.png)
-

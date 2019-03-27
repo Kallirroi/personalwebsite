@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
             const tag = get(node, 'frontmatter.tag') || node.fields.slug
             const isHidden = get(node, 'frontmatter.isHidden') || node.fields.slug
             const itemClass = (isHidden === 'yes') ? 'postThumbnail-hidden' : 'postThumbnail'
-            console.log(tag)
+            // console.log(tag)
             return (
               <div className={itemClass} key={node.fields.slug}>
                 <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>

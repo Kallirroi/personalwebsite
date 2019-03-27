@@ -8,11 +8,8 @@ How many times does the word "you", or variations of it, get mentioned in the bi
 A lot.
 
 <span class="caption">Apple Keynote 2018 - <a href="https://youtheusers.netlify.com/" target="_blank">link</a></span>
-
 ![altcaption](apple.png)
-
 ![altcaption](3D.png)
 
 <span class="caption">Google 2018 Keynote</span>
-
 ![altcaption](google.png)
