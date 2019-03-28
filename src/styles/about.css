@@ -4,14 +4,23 @@
 	overflow-y: scroll;
 }
 
+.aboutText > p  {
+	margin: 0;
+}
+
 .aboutText > p > a {
 	border-bottom: 5px solid;
 }
 
-.aboutText > p.aboutLinks  {
-	margin-top: 3vh;
+.aboutText > p.aboutLinks {
+	margin-bottom: 2vh;
 }
 
 .aboutText > p.aboutLinks  > a {
 	border-bottom: 5px solid;
+	margin-right: 1vw;
+}
+
+h4 {
+	margin: 2.5vh 0;
 }
