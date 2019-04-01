@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kallirroi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kalli-retzepi.com
+  * I am kallirroi (https://keybase.io/kallirroi) on keybase.
+  * I have a public key ASBwm_Zz-IBg_DU9OPAqZamoxOdN0S1M6fja6WudkNlhXgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120709bf673f88060fc353d38f02a65a9a8c4e74dd12d4ce9f8dae96b9d90d9615e0a",
+      "host": "keybase.io",
+      "kid": "0120709bf673f88060fc353d38f02a65a9a8c4e74dd12d4ce9f8dae96b9d90d9615e0a",
+      "uid": "ed289e67cfc2ad9bffef84081ce4f519",
+      "username": "kallirroi"
+    },
+    "merkle_root": {
+      "ctime": 1554133490,
+      "hash": "322621272db0cd4581ef9b39a9493abb43e46c5c22413b51c119bcdfdfd94d33780e1e6c97f7b476749e5ec396cf3dae66933d2c808a27615fe97aee70bc72e3",
+      "hash_meta": "f9291a493de3b6e853e79327966d1af1fc3c512bdf1a16d431ad365aab7d55d2",
+      "seqno": 5072385
+    },
+    "service": {
+      "entropy": "H04zGao32g9zCgo6efHe0Tkw",
+      "hostname": "kalli-retzepi.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554133503,
+  "expire_in": 504576000,
+  "prev": "816fb4003ded58bc3131cc3ad6149d0492fec2e39105e666b055cf7d62dadc2e",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcJv2c/iAYPw1PTjwKmWpqMTnTdEtTOn42ulrnZDZYV4Kp3BheWxvYWTESpcCCsQggW+0AD3tWLwxMcw61hSdBJL+wuORBeZmsFXPfWLa3C7EIHVx/RuvTwhDDWMRhanE4iZq6Nne9UFkSZ+TkiyEklTQAgHCo3NpZ8RAqtOMS72nDb1vxKzSOy1N8dLBb996HH8JGiuIK6x0q2TnMaVayFJV8AnYGpSnsSTofEwJuPwqge0hexIynwi7C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKKkMpIaLTqPt2oPbTb6/1RsNG77kAjpj+AGRyR8SnYqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kallirroi
+
+==================================================================
