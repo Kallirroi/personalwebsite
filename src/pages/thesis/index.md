@@ -12,7 +12,10 @@ This project is also my Master's thesis at the Media Lab. Lastly, I kept a weekl
 ![altcaption](grid.gif)
 
 <span class="caption">Renderings of objects</span>
-![altcaption](portfolio3.png)
+![altcaption](portfolio3.JPG)
 
-<span class="caption">Objects in the world!</span>
-![altcaption](portfolio4.png)
+<span class="caption">Objects!</span>
+![altcaption](objects.JPG)
+
+<span class="caption">Project portfolio - download <a href="https://www.dropbox.com/s/1viu4bh2nestv9s/portfolio.pdf?dl=0" target="_blank"> <b>here</b> </a>.</span>
+![altcaption](portfolio_spreads.gif)
