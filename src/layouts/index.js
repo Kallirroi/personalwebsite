@@ -4,15 +4,16 @@ import Link from 'gatsby-link'
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
-    let header
+    let header, back
     if (location.pathname === '/') {
       header = (
         <div className="pageTitle">
+        header
         </div>
       )
     } else {
-      header = (
-        <div className="pageTitle">
+      back = (
+        <div className="back">
           <Link to={'/'}>
             back
           </Link>
@@ -21,8 +22,8 @@ class Template extends React.Component {
     }
     return (
       <div>
-        {header}
         {children()}
+        {back}
       </div>
     )
   }

@@ -1,4 +1,6 @@
 /*------------------------general------------------------*/
+@import url('https://rsms.me/inter/inter.css');
+
 
 @font-face {
 	font-family: 'Unica';
@@ -7,11 +9,12 @@
 
 
 body {
-	font-family:  'system-ui', 'Unica', sans-serif;
-	font-size: 2.9rem;
-	line-height: 4.2rem;
+	font-family: 'Inter', 'Unica', sans-serif;
+	font-size: 3rem;
+	line-height: 4rem;
 	overflow-y: scroll;
 	cursor: url(cursor.png), auto;
+	font-weight: 400;
 }
 
 a {
@@ -31,10 +34,15 @@ a:visited {
 
 
 .index {
-	max-width: 90vw;
-	margin: 0 auto;
-	max-height: 79vh;
+	max-width: 50vw;
+	padding: 1vh 1vw;
+	margin-top: 5vh;
+	margin-left: 1vw;
+	max-height: 80vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 2px solid #000;
+	text-transform: uppercase;
 }
 
 .index > .postThumbnail-hidden {
@@ -43,30 +51,35 @@ a:visited {
 
 .index  > .postThumbnail {
   display: block;
-	border-bottom: 5px solid #fff;
-  width: 89vw;
+	border-bottom: 3px solid #fff;
+  width: auto;
+	word-wrap: break-word;
 }
 
 .index  > .postThumbnail:hover {
-	border-bottom: 5px solid;
+	border-bottom: 3px solid;
 }
+
 
 .index  > .postThumbnail > .tagThumbnail {
 	float: right;
-  display: block;
+	font-size: 2rem;
+	text-transform: none;
 }
 
 /*------------------------about------------------------*/
 
 .about {
 	max-width: 90vw;
-	margin: 0 auto;
-  padding-top: 3vh;
+  margin-top: 3vh;
+	margin-left: 1vw;
   /* padding-bottom: 4vh; */
 }
 
 .about > a {
-	color: #ed521e;
+	/* color: #ed521e; */
+	font-weight: 600;
+	font-size: 2rem;
 }
 
 /*------------------------RESPONSIVE------------------------*/

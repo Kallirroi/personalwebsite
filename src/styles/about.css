@@ -1,7 +1,15 @@
 .aboutText {
-	max-width: 90vw;
-	margin: 0 auto;
 	overflow-y: scroll;
+	max-width: 50vw;
+	padding: 1vh 1vw;
+	margin-left: 1vw;
+	margin-top: 5vh;
+	max-height: 80vh;
+	overflow-y: scroll;
+	border: 2px solid #000;
+	font-size: 2rem;
+	line-height: 2.9rem;
+	overflow-x: hidden;
 }
 
 .aboutText > p  {
@@ -9,18 +17,14 @@
 }
 
 .aboutText > p > a {
-	border-bottom: 5px solid;
+	border-bottom: 3px solid;
 }
 
 .aboutText > p.aboutLinks {
-	margin-bottom: 2vh;
+	margin-bottom: 3vh;
 }
 
 .aboutText > p.aboutLinks  > a {
-	border-bottom: 5px solid;
+	border-bottom: 3px solid;
 	margin-right: 1vw;
-}
-
-h4 {
-	margin: 2.5vh 0;
 }
