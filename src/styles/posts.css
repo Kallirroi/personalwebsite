@@ -1,15 +1,15 @@
 
 .postMain {
 	overflow-y: scroll;
-	max-width: 50vw;
+	max-width: 60vw;
 	padding: 1vh 1vw;
 	margin-left: 1vw;
 	margin-top: 5vh;
 	max-height: 80vh;
 	overflow-y: scroll;
 	border: 2px solid #000;
-	font-size: 2rem;
-	line-height: 2.9rem;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
 	overflow-x: hidden;
 
 }
@@ -63,6 +63,28 @@
 
 .back > a {
 	/* color: #ed521e; */
+	font-size: 1.8rem;
+	line-height: 2.5rem;
 	font-weight: 600;
-	font-size: 2rem;
+	text-decoration: underline;
+}
+
+
+/*------------------------RESPONSIVE------------------------*/
+
+
+@media screen and (max-width: 900px) {
+
+	.postMain {
+		max-width: 90vw;
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+
+	.back > a {
+		font-weight: 600;
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+
 }

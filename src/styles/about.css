@@ -1,14 +1,14 @@
 .aboutText {
 	overflow-y: scroll;
-	max-width: 50vw;
+	max-width: 60vw;
 	padding: 1vh 1vw;
 	margin-left: 1vw;
 	margin-top: 5vh;
 	max-height: 80vh;
 	overflow-y: scroll;
 	border: 2px solid #000;
-	font-size: 2rem;
-	line-height: 2.9rem;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
 	overflow-x: hidden;
 }
 
@@ -27,4 +27,18 @@
 .aboutText > p.aboutLinks  > a {
 	border-bottom: 3px solid;
 	margin-right: 1vw;
+}
+
+
+/*------------------------RESPONSIVE------------------------*/
+
+
+@media screen and (max-width: 900px) {
+
+	.aboutText {
+		max-width: 90vw;
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+
 }

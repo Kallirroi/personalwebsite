@@ -1,5 +1,5 @@
 ---
-title: an analog interface in a digital world
+title: analog interface/digital world
 date: "2019-03-03T22:40:32.169Z"
 tag: MIT workshop
 ---
