@@ -13,12 +13,15 @@
 	overflow-x: hidden;
 }
 
-.postBody > p > img {
-	/* margin: 0 auto; */
-	display: block;
-	width: 100%;
+.postBody > p >  a.gatsby-resp-image-link  {
+	margin: 0 auto;
+	display: block !important;
+	width: 50% !important;
 }
 
+.postBody > p >  a.gatsby-resp-image-link:hover  {
+	filter: invert(.8);
+}
 
 .postMain > .postBody {
 	color: #000;
@@ -26,7 +29,8 @@
 }
 
 .postBody > p  > a {
-	border-bottom: 3px solid;
+	/* border-bottom: 3px solid; */
+	font-weight: 600;
 }
 
 .postBody > ul {
@@ -39,7 +43,7 @@
 }
 
 @media screen and (max-width: 900px) {
-	.postBody > p > img {
+	.postBody > p >  a.gatsby-resp-image-link  {
 		width: 90vw;
 	}
 }
@@ -49,7 +53,7 @@
 	font-size: 1.2rem;
 	display: block;
 	/* border: 1px solid; */
-	padding-left: 20vw;
+	/* padding-left: 5vw; */
 }
 
 

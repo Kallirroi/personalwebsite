@@ -9,7 +9,7 @@ I designed, fabricated and deployed a number of objects that capture, play and s
 This project is also my Master's thesis at the Media Lab. Lastly, I kept a weekly journal of my progress, which you can find <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here </a>.
 
 <span class="caption">Early stages of design research</span>
-![altcaption](grid.gif)
+![altcaption](grid.png)
 
 <span class="caption">Renderings of objects</span>
 ![altcaption](portfolio3.JPG)
@@ -17,5 +17,4 @@ This project is also my Master's thesis at the Media Lab. Lastly, I kept a weekl
 <span class="caption">Objects!</span>
 ![altcaption](objects.JPG)
 
-<span class="caption">Project portfolio - download <a href="https://www.dropbox.com/s/1viu4bh2nestv9s/portfolio.pdf?dl=0" target="_blank"> <b>here</b> </a>.</span>
-![altcaption](portfolio_spreads.gif)
+<span class="caption">Project portfolio - <b>link<a href="https://www.dropbox.com/s/1viu4bh2nestv9s/portfolio.pdf?dl=0" target="_blank"></b>  </a>.</span>

@@ -71,7 +71,7 @@ a:visited {
 /*------------------------about------------------------*/
 
 .about {
-	max-width: 90vw;
+	max-width: 20vw;
   margin-top: 3vh;
 	margin-left: 1vw;
   /* padding-bottom: 4vh; */
@@ -84,6 +84,30 @@ a:visited {
 	line-height: 2.5rem;
 }
 
+.currently {
+	max-width: 15vw;
+	text-align: left;
+	/* border: 1px solid; */
+	position: absolute;
+	right: 1vw;
+	bottom: 3vh;
+  /* margin-top: 3vh; */
+	font-size: 1.3rem;
+	line-height: 2rem;
+  /* padding-bottom: 4vh; */
+}
+
+.currently  > p {
+	margin: 0;
+}
+
+.currently > p:before {
+	content: url(favicon.png);
+	/* content: '↗'; */
+	margin-right: 0.2vw;
+	vertical-align: baseline;
+  /* color: rgba(0,0,0,.5); */
+}
 /*------------------------RESPONSIVE------------------------*/
 
 
