@@ -35,13 +35,13 @@ a:visited {
 
 .index {
 	max-width: 60vw;
-	padding: 1vh 1vw;
+	padding: 0 1vw 1vh 1vw;
 	margin-top: 5vh;
 	margin-left: 1vw;
 	max-height: 80vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	border: 2px solid #000;
+	border-left: 20px solid #000;
 	text-transform: uppercase;
 }
 
