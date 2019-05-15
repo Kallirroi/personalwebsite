@@ -43,3 +43,5 @@ I have also identified some questions that might merit some long-form writing, n
 - what does decentralization mean in the context of a "liquid" (in the [Zygmunt Bauman](https://en.wikipedia.org/wiki/Zygmunt_Bauman) sense) world?
 
 That's it for now. Thank you for reading!
+
+PS: Thank you [Judith](https://twitter.com/judithd) and [Zach](https://twitter.com/zachlieberman) (my readers) - learning from you has been a joy!
