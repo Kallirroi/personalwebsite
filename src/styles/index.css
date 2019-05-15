@@ -38,10 +38,10 @@ a:visited {
 	padding: 0 1vw 1vh 1vw;
 	margin-top: 5vh;
 	margin-left: 1vw;
-	max-height: 90vh;
+	max-height: 85vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	border-left: 20px solid #000;
+	border-left: 30px solid #000;
 	text-transform: uppercase;
 }
 
@@ -72,8 +72,9 @@ a:visited {
 /*------------------------about------------------------*/
 
 .about {
-	max-width: 20vw;
-  margin-top: 3vh;
+	display: block;
+	position: absolute;
+	bottom: 2vh;
 	margin-left: 1vw;
   /* padding-bottom: 4vh; */
 }

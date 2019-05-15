@@ -4,7 +4,7 @@
 	max-width: 90vw;
 	margin-left: 1vw;
 	margin-top: 5vh;
-	max-height: 83vh;
+	max-height: 85vh;
 	/* padding: 1vh 1vw; */
 	overflow-y: scroll;
 	padding: 0 1vw 1vh 1vw;
@@ -46,6 +46,9 @@
 	margin: 0;
 	padding: 0;
 }
+.postBody > ul > li > a {
+	font-weight: 600;
+}
 
 @media screen and (max-width: 900px) {
 	.postBody > p >  a.gatsby-resp-image-link  {
@@ -66,7 +69,7 @@
 	display: block;
 	position: absolute;
 	bottom: 2vh;
- 	left: 1vw;
+ 	margin-left: 1vw;
 }
 
 .back > a {
