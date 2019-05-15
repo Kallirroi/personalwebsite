@@ -39,6 +39,7 @@ class BlogIndex extends React.Component {
 
 export default BlogIndex
 
+// I had to remove isHidden from the frontmatter layout below (it was date - title - tag - isHidden)
 export const pageQuery = graphql`
   query IndexQuery {
     site {
@@ -57,7 +58,6 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             tag
-            isHidden
           }
         }
       }
