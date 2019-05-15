@@ -131,4 +131,8 @@ a:visited {
 		line-height: 2rem;
 	}
 
+	.currently {
+		display: none;
+	}
+
 }
