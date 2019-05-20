@@ -37,3 +37,5 @@ It was a fun couple of hours, and felt quite soothing to make all the informatio
 ![nytimes](nytimes.png)
 
 ![twitter](twitter.png)
+
+<span class="caption">Copyright Kalli Retzepi 2019</span>

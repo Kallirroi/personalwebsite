@@ -13,3 +13,5 @@ A lot.
 
 <span class="caption">Google 2018 Keynote</span>
 ![altcaption](google.png)
+
+<span class="caption">Copyright Kalli Retzepi 2018</span>

@@ -22,3 +22,5 @@ I kept a weekly journal of my progress, which you can find <a href="https://ther
 ![altcaption](portfolio7.png)
 
 ![altcaption](portfolio8.png)
+
+<span class="caption">Copyright Kalli Retzepi 2019</span>
