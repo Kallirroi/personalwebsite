@@ -44,7 +44,7 @@ a:visited {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	/* border-left: 30px solid #000; */
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .index > .postThumbnail-hidden {
@@ -84,8 +84,7 @@ a:visited {
 .about > a {
 	/* color: #ed521e; */
 	font-weight: 600;
-	font-size: 1.8rem;
-	line-height: 2.7rem;
+	font-size: 1.3rem;
 }
 
 .currently {

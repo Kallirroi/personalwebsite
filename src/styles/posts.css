@@ -1,7 +1,7 @@
 
 .postMain {
 	overflow-y: scroll;
-	max-width: 60vw;
+	max-width: 45vw;
 	margin-left: 1vw;
 	margin-top: 5vh;
 	max-height: 85vh;
@@ -25,7 +25,7 @@
 }
 
 .postBody > p >  a.gatsby-resp-image-link > span.gatsby-resp-image-wrapper:hover  {
-	filter: invert(.8);
+	filter: sepia(.2);
 }
 
 .postMain > .postBody {
@@ -74,8 +74,7 @@
 
 .back > a {
 	/* color: #ed521e; */
-	font-size: 1.8rem;
-	line-height: 2.5rem;
+	font-size: 1.3rem;
 	font-weight: 600;
 	/* text-decoration: underline; */
 }
