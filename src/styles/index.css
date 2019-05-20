@@ -88,12 +88,12 @@ a:visited {
 }
 
 .currently {
-	max-width: 15vw;
+	max-width: 18vw;
 	text-align: left;
 	/* border: 1px solid; */
 	position: absolute;
 	right: 1vw;
-	bottom: 1vh;
+	bottom: 3vh;
   /* margin-top: 3vh; */
 	font-size: 1.3rem;
 	line-height: 2rem;
