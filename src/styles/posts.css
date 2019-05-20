@@ -1,17 +1,17 @@
 
 .postMain {
 	overflow-y: scroll;
-	max-width: 90vw;
+	max-width: 60vw;
 	margin-left: 1vw;
 	margin-top: 5vh;
 	max-height: 85vh;
-	/* padding: 1vh 1vw; */
+	padding: 1vh 1vw;
 	overflow-y: scroll;
 	padding: 0 1vw 1vh 1vw;
 	/* border: 2px solid #000; */
 	/* border-left: 20px solid #000; */
-	font-size: 1.8rem;
-	line-height: 2.5rem;
+	font-size: 1.3rem;
+	line-height: 1.7rem;
 	overflow-x: hidden;
 }
 

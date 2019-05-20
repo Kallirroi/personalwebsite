@@ -2,9 +2,10 @@
 title: images in translation
 date: "2018-01-11T22:40:32.169Z"
 tag: MIT workshop
+isHidden: yes
 ---
 
-#### Workshop brief 
+#### Workshop brief
 
 With the ubiquitous presence of the web, our relationship to the world, even architecture, exists more as images than lived experience; this radical flattening has assumed images equivalent value with the real thing. Limits between the real and artificial, the original and copy have dissolved as files are copied and shared. Simultaneously, deep learning algorithms and other forms of artificial intelligence have challenged traditional notions of authorship and the inherited intelligence of the images we ogle.
 
@@ -16,9 +17,9 @@ This workshop will respond to such a context by mining the image’s performance
 My initial ideas revolved around using generative deep learning algorithms to produce images and text, that we could in the end pin up and “critique” this artificially generated architectural project. However, this requires an immense quantity of well curated images that was hard to find (I was imagining that we generate multiple sections of a building for example, which would require finding thousands of similar images to train on).
 
 
-#### Deep Learning 
+#### Deep Learning
 
-Instead of the above, I decided to play around with some existing algorithms that generate 3D models (1 and 2), and a RNN-Char text generation algorithm. It was not a trivial task, given that the 3D modeling involves transformations between file types I had never worked with (binvox) but eventually I managed to get some results. 
+Instead of the above, I decided to play around with some existing algorithms that generate 3D models (1 and 2), and a RNN-Char text generation algorithm. It was not a trivial task, given that the 3D modeling involves transformations between file types I had never worked with (binvox) but eventually I managed to get some results.
 
 I also spent some time setting up an AWS AMI for running the RNN-Char which was very much worth the effort and the money, as it ran in about 1% the time it ran on my Macbook Pro.
 
@@ -38,12 +39,12 @@ The RNN-Char was trained on a bunch of architectural texts and manuals, and here
 
 #### Image processing (Python)
 
-These results were interesting but not as interesting as I thought they would be. I found it hard to evolve them further...so I decided to work with a different set of images (broadcasted news screenshots, like the image below) and stick to the “news consumption” theme. 
+These results were interesting but not as interesting as I thought they would be. I found it hard to evolve them further...so I decided to work with a different set of images (broadcasted news screenshots, like the image below) and stick to the “news consumption” theme.
 
 ![altcaption](4.png)
 
 
-I used Python’s PIL library and this repo to perform some glitching and other image manipulation effects. I had previously modified this script to monitor the wifi network’s jitter so I used the output numbers as an input to the glitch/distortion parameters. 
+I used Python’s PIL library and this repo to perform some glitching and other image manipulation effects. I had previously modified this script to monitor the wifi network’s jitter so I used the output numbers as an input to the glitch/distortion parameters.
 
 
 I then mashed up news images in different ways:
@@ -62,7 +63,7 @@ A grocery store aisle with cereal
 
 ![altcaption](9.png)
 
-A coffee cup 
+A coffee cup
 
 ![altcaption](10.png)
 
@@ -81,8 +82,8 @@ A coffee cup
 ![altcaption](14.png)
 ![altcaption](15.png)
 
-“Ubiquitous news” 
-  
+“Ubiquitous news”
+
 ![altcaption](16.png)
 
 
@@ -94,5 +95,3 @@ http://cmu-dfab.org/rhino-surf/ <br/>
 https://www.kadenze.com/courses/computing-form-and-shape-python-programming-with-the-rhinoscript-library <br/>
 https://www.youtube.com/watch?v=fMdCZFJ-i38&t=618s <br/>
 http://developer.rhino3d.com/guides/rhinopython/ <br/>
-
-

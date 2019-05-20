@@ -1,7 +1,7 @@
 ---
 title: proof of dance
 date: "2018-04-11T22:40:32.169Z"
-tag: MIT project
+tag: (very) Media Lab project
 ---
 
 For a party at the Lab, we made a blockchain-based Dance Dance Revolution game that mines (fake) Ether. You can see me dancemining here:

@@ -2,6 +2,7 @@
 title: medrec
 date: "2018-05-11T21:40:32.169Z"
 tag: MIT project
+isHidden: yes
 ---
 
 Manage your medical records on the blockchain.

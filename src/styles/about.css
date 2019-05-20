@@ -12,6 +12,10 @@
 	overflow-x: hidden;
 }
 
+h4 {
+	margin: 5vh 0 1vh 0;
+}
+
 .aboutText > p  {
 	margin: 0;
 }

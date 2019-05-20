@@ -27,3 +27,29 @@ I made a Chrome extension that strips each page down to the most interaction-hun
 &nbsp
 
 ![altcaption](ebay.png)
+
+
+Some 3D explorations of the above images:
+
+
+
+Google search rendered in 3D:
+
+
+![altcaption](google1.png)
+
+
+
+![altcaption](google2.png)
+
+
+
+Instagram rendered in 3D:
+
+
+
+![altcaption](instagram1.png)
+
+
+
+![altcaption](instagram2.png)

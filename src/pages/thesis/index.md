@@ -1,7 +1,7 @@
 ---
 title: internet as an object
 date: "2019-03-25T22:40:32.169Z"
-tag: MIT thesis
+tag: Media Lab thesis
 ---
 
 #### Abstract

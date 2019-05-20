@@ -1,11 +1,11 @@
 ---
 title: traceFORM
 date: "2018-02-11T22:40:32.169Z"
-tag: MIT project
+tag: Tangible Interfaces Group collaboration
 ---
 
 
-The main premise of our project is the two dimensional physicalization of graphical data representations containted in a web page, which would otherwise be missed or insufficiently described via a screen reader to a visually impaired person. By using “TRANSFORM” we are able to turn two-dimensional digital representations of plots, graphs and sketches into physical representations that visually impaired students can interact with. Such students would typically use a screen reader software to browse through digital content, and once encountering a graph either automatically skip it or hear a simplistic label description such as “graph for velocity and time”. Not being able to easily understand the information communicated with a graph can greatly stunt the student’s progress. We propose to implement a software and hardware system that will accompany the screen reader of a web page, and upon encountering a graph, will suggest a physicalized version of that graph on the nearby TraceForm. It will then animate the given scenario in a tangible dynamic representation. 
+The main premise of our project is the two dimensional physicalization of graphical data representations containted in a web page, which would otherwise be missed or insufficiently described via a screen reader to a visually impaired person. By using “TRANSFORM” we are able to turn two-dimensional digital representations of plots, graphs and sketches into physical representations that visually impaired students can interact with. Such students would typically use a screen reader software to browse through digital content, and once encountering a graph either automatically skip it or hear a simplistic label description such as “graph for velocity and time”. Not being able to easily understand the information communicated with a graph can greatly stunt the student’s progress. We propose to implement a software and hardware system that will accompany the screen reader of a web page, and upon encountering a graph, will suggest a physicalized version of that graph on the nearby TraceForm. It will then animate the given scenario in a tangible dynamic representation.
 
 ![altcaption](1.png)
 
@@ -18,7 +18,7 @@ For our initial prototyping, and before we decided to focus on visually impaired
 
 Our conclusion was that in general the use of TRANSFORM as an interface to input and modify data turned out to be cumbersome and in most perspectives inferior to any GUI. We thus shifted our focus to visually impaired users, and the more “passive” application of converting illustrations/diagrams/plots into representations on TRANSFORM. By doing so we avoided the requirement of having an interface upon which the user should be able to construct scenarios. Instead, we could focus on translating graphical spatial representations onto the transform and allowing simple investigative operations to be performed.
 
-One of the platform’s greatest strengths is its ability to dynamically alter its representation in real time and for that reason we chose to focus on the topic of motion (basic physics of linear uniform velocity and acceleration). The programmable pins allowed us to mimic different type of motions; constant and accelerating movements, fast and slow velocities and so forth. 
+One of the platform’s greatest strengths is its ability to dynamically alter its representation in real time and for that reason we chose to focus on the topic of motion (basic physics of linear uniform velocity and acceleration). The programmable pins allowed us to mimic different type of motions; constant and accelerating movements, fast and slow velocities and so forth.
 
 ![altcaption](4.png)
 
