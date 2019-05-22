@@ -13,6 +13,7 @@ export default () => (
       <a href="https://twitter.com/kallirroi" target="_blank">twitter</a>
       <a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a>
     </p>
+    <p>CV and portfolio available upon request.</p>
 
     <h4>workshops / talks / abstracts</h4>
     <p>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</p>
