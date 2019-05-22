@@ -6,4 +6,4 @@ tag: freelance
 
 A nervous <a href="http://samtous.wtf/" target="_blank">portfolio</a> of images and projects, by Sam Ghantous.
 
-![altcaption](samtous.png)
+![altcaption](mockup.png)
