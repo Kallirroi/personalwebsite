@@ -1,5 +1,5 @@
 ---
-title: thesis:postscript
+title: thesis, a postscript
 date: "2019-05-15T22:40:32.169Z"
 tag: thoughts
 ---
