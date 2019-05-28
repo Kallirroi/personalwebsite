@@ -16,4 +16,8 @@ I kept a weekly journal of my progress, which you can find <a href="https://ther
 
 ![model](4.JPG)
 
+![model](electronics.png)
+
+![model](installation.png)
+
 <span class="caption">Copyright Kalli Retzepi 2019</span>
