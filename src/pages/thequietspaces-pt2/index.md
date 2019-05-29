@@ -4,7 +4,7 @@ date: "2018-08-10T22:40:32.169Z"
 tag: personal project
 ---
 
-Where do you go when you want to find quietness in real life?
+<!-- Where do you go when you want to find quietness in real life?
 
 I go for a walk, ideally for a run. A coffee shop will usually do, but then you never know if its loud or not, what music is playing...The library. Best case scenario would be a rooftop or a balcony, but thats quite rare in the US. In Greece you always have a balcony, no matter how buried in the city's downtown you are. It's not quiet, but its a space exposed to the elements, lets say. In Switzerland I used to go by the lake and sit on the gray rocks. I have spent many hours on these rocks. Or I had a particular spot by my window, overlooking the lake. Coffee was a necessity, for these moments. Here in Cambridge I have trouble finding equivalent refuges. There's the Somerville Fort on top of Prospect Hill, which is not bad. What's better is a swing set halfway up the hill. It's right next to the road though, so silence isn't guarantied. There's a spot right under the Longfellow Bridge, connecting Cambridge to Boston, where traffic noise is somehow muffled and seems to come from the room next door. Bridges offer other quiet moments too, albeit rare - it's when you are traversing it and the traffic lights from both sides seem to sync, and simultaneously cut the flow of vehicles. Then you are offered some seconds of quietness suspended in the middle of the river.
 
@@ -18,7 +18,7 @@ Is it all painted in soothing pastel colors, or minimally set black on white bac
 
 What is the Web's noise, and what is its quietness? Is there any? Maybe we should be creating it?
 
------
+----- -->
 
 I was curious to create images of my most used online interfaces, stripped of anything that is considered "informational". No usernames, dates, content. Only empty tweets, emails, outlines of images and whatever remains of the UI (barely anything).
 
