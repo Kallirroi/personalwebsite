@@ -9,10 +9,13 @@ This project lies in the intersection of three avenues: physical non-screen inte
 I kept a weekly journal of my progress, which you can find <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here</a>.
 
 <span class="caption">Prototyping:</span>
-![model](grid.png)
+![Prototyping](grid.png)
+
+<span class="caption">Drawings for overall concept:</span>
+![drawings](drawings.png)
 
 <span class="caption">Electronics:</span>
-![model](electronics.png)
+![electronics](electronics.png)
 
 <span class="caption">Final 3D printed models:</span>
 ![model](1.JPG)
@@ -23,9 +26,8 @@ I kept a weekly journal of my progress, which you can find <a href="https://ther
 
 ![model](4.JPG)
 
-
 <span class="caption">Two of the four locations the objects were installed:</span>
-![model](installation.png)
+![installation](installation.png)
 
 
 
