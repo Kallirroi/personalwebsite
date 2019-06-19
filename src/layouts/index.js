@@ -7,7 +7,7 @@ class Template extends React.Component {
     let header, back, currently
     currently = (
       <div className="currently">
-        <p>Graduating from MIT in June, then heading to Berlin and NYC.</p>
+        <p>Graduated MIT, contemplating next steps.</p>
       </div>
     )
     if (location.pathname === '/') {

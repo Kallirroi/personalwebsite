@@ -7,7 +7,7 @@
 	max-height: 85vh;
 	padding: 1vh 1vw;
 	overflow-y: scroll;
-	padding: 0 1vw 1vh 1vw;
+	padding: 0;
 	/* border: 2px solid #000; */
 	/* border-left: 20px solid #000; */
 	font-size: 1.3rem;
