@@ -4,7 +4,7 @@ import "../styles/about.css";
 
 export default () => (
   <div className="aboutText">
-    <p>Kalli Retzepi is a graduate student at the Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. </p>
+    <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. </p>
 
     <h4>contact</h4>
     <p className="aboutLinks">
