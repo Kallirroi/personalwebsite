@@ -26,9 +26,8 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
-
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
+        <Link to="/">back</Link>
       </Layout>
     )
   }
