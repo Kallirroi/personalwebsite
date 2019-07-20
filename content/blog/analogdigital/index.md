@@ -1,6 +1,6 @@
 ---
 title: an analog interface in a digital world
-date: "0000-00-11T00:00:00"
+date: "2015-05-06T23:46:37.121Z"
 description: ACT February School exhibition
 ---
 

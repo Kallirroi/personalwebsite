@@ -1,6 +1,6 @@
 ---
 title: thoughtless acts
-date: "0000-00-04T00:00:00"
+date: "2015-05-06T23:46:37.121Z"
 description: seeing vs looking
 ---
 

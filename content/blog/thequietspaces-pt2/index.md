@@ -1,7 +1,7 @@
 ---
 title: the quiet spaces
-date: "0000-00-09T00:00:00"
-description: speculative interfaces 
+date: "2015-05-06T23:46:37.121Z"
+description: speculative interfaces
 ---
 
 

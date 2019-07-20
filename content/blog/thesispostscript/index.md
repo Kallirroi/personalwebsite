@@ -1,6 +1,6 @@
 ---
 title: thesis postscript
-date: "0000-00-13T00:00:00"
+date: "2015-05-06T23:46:37.121Z"
 description: some thoughts about thesis
 ---
 

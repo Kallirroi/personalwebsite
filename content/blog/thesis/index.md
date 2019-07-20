@@ -1,6 +1,6 @@
 ---
 title: internet as an object
-date: "0000-00-12T00:00:00"
+date: "2015-05-06T23:46:37.121Z"
 description: MIT Media Lab thesis
 ---
 

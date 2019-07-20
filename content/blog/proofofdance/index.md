@@ -1,6 +1,6 @@
 ---
 title: proof of dance
-date: "0000-00-06T00:00:00"
+date: "2015-05-06T23:46:37.121Z"
 description: a dance mat on the blockchain
 ---
 

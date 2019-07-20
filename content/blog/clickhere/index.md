@@ -1,7 +1,7 @@
 ---
 title: clickhere
-date: "0000-00-07T00:00:00"
-description: Chrome extension / speculative interfaces
+date: "2015-05-06T23:46:37.121Z"
+description: speculative interfaces
 ---
 
 
