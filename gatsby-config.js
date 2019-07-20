@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kalli Retzepi`,
     author: `Kalli Retzepi`,
-    description: `Personal portfolio`,
+    description: `Kalli's portfolio`,
     siteUrl: `https://kalli-retzepi.com/`,
     social: {
       twitter: `kallirroi`,
