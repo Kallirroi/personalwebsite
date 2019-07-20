@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class About extends React.Component {
   render() {
@@ -14,8 +14,15 @@ class About extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="About" />
-        This is text about Kalli
-        <Link to="/">back</Link>
+        <p>This is text about Kalli</p>
+        <Link
+          style={{
+            marginBottom: rhythm(1),
+            marginTop: rhythm(1),
+          }}
+          to={`/`}
+        >
+        back</Link>
       </Layout>
     )
   }
