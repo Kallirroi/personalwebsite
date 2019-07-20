@@ -1,20 +1,26 @@
-import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import Typography from 'typography'
+import theme from '../../theme'
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
-    },
-  }
+const options = {
+  headerFontFamily: [`Inter UI`, `sans-serif`],
+  bodyFontFamily: [`Inter UI`, `sans-serif`],
+  overrideStyles: () => {
+    return {
+      'h1,h2,h3,h4,h5,h6': {
+        fontFamily: theme.bodyFontFamily,
+      },
+      a: {
+        textDecoration: `none`,
+        color: '#000',
+      },
+    }
+  },
 }
 
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(options)
 
 // Hot reload typography in development.
-if (process.env.NODE_ENV !== `production`) {
+if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles()
 }
 
