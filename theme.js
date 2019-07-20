@@ -1,8 +1,8 @@
 const theme = {
-  headerColor: `#554A46`,
-  linkColor: `#90B3DF`,
-  accentColor: `#B8B8AC`,
-  complimentaryAccentColor: `#141C26`,
+  headerColor: `#000`,
+  linkColor: `#000`,
+  accentColor: `#000`,
+  complimentaryAccentColor: `#000`,
 }
 
 export default theme
