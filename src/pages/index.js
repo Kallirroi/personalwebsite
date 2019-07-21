@@ -12,45 +12,48 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
+    const imagePaths = data.thumbnails.edges
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Kalli Retzepi" />
         <div>
-        {posts.map(({ node }) => {
+
+        {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
 
           return (
-            <div key={node.fields.slug}
+            <div
+            key={node.fields.slug}
             style={{
-              marginBottom: rhythm(5),
+              paddingBottom: rhythm(10),
+              width: '70%',
+              margin: '0 auto',
+              display: 'block',
+              position: 'relative'
             }}
             >
-
               <Image
-                fixed={data.thumbnail.childImageSharp.fixed}
+                fixed={imagePaths[0].node.childImageSharp.fixed}
                 alt=""
                 style={{
-                  marginBottom: 0,
                   width: '100%',
                 }}
               />
 
               <Link to={node.fields.slug}
               style={{
-                ...scale(0.1),
                 fontWeight: `400`,
                 display: 'block',
                 textAlign: 'right',
-                border: '1px dashed pink',
                 width: 'auto',
+                marginBottom: rhythm(2),
               }}>
-                {title} - project details
+                {title}
               </Link>
+
               <p style={{
                 display: 'block',
                 textAlign: 'left',
-                border: '1px dashed cyan',
                 width: 'auto',
               }}
                 dangerouslySetInnerHTML={{
@@ -70,10 +73,14 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    thumbnail: file(absolutePath: { regex: "/1.jpg/" }) {
-      childImageSharp {
-        fixed(width: 500, height: 300) {
-          ...GatsbyImageSharpFixed
+    thumbnails: allFile(filter: { absolutePath: { regex: "/thumbnails/" } }) {
+      edges {
+        node {
+          childImageSharp {
+            fixed(width: 450, height: 300) {
+              ...GatsbyImageSharpFixed
+            }
+          }
         }
       }
     }

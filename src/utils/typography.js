@@ -11,6 +11,8 @@ const options = {
       },
       a: {
         textDecoration: `none`,
+        fontWeight: `600`,
+        fontSize: 'inherit',
         color: '#000',
         fontFamily: theme.bodyFontFamily,
       },

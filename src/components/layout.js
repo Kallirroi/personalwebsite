@@ -20,21 +20,27 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
+          marginTop: rhythm(2),
           maxWidth: rhythm(50),
         }}
       >
-        <navbar style={{
+        <div style={{
           border: '1px solid pink',
           display: 'inline-block',
           float: 'left',
-          width: rhythm(15),
-        }}>{navbar}</navbar>
+          width: rhythm(10),
+        }}>{navbar}</div>
+
         <main style={{
           border: '1px solid blue',
-          display: 'inlineblock',
+          display: 'inline-block',
           float: 'right',
-          width: rhythm(34),
+          width: rhythm(40),
+          height: '98vh',
+          overflow: 'scroll',
+          paddingRight: rhythm(0.5)
         }}>{children}</main>
+
       </div>
     )
   }
