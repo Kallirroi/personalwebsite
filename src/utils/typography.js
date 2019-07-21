@@ -6,12 +6,13 @@ const options = {
   bodyFontFamily: [`Inter UI`, `sans-serif`],
   overrideStyles: () => {
     return {
-      'h1,h2,h3,h4,h5,h6': {
-        fontFamily: theme.bodyFontFamily,
+      'h1,h2,h3,h4,h5,h6 > a': {
+        fontFamily: theme.headerFontFamily,
       },
       a: {
         textDecoration: `none`,
         color: '#000',
+        fontFamily: theme.bodyFontFamily,
       },
     }
   },
