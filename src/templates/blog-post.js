@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -16,14 +15,6 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        >
-          {post.frontmatter.title}
-        </h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <Link to="/">back</Link>
       </Layout>

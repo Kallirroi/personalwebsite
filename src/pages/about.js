@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
-import { rhythm, scale } from "../utils/typography"
 
 class About extends React.Component {
   render() {
@@ -16,11 +15,7 @@ class About extends React.Component {
       location={this.props.location}
       title={siteTitle}>
         <SEO title="About" />
-        <div
-        style={{
-          marginTop: rhythm(2),
-        }}
-        >
+        <div>
         <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. </p>
         <p>CV and portfolio available upon request.</p>
 
@@ -51,13 +46,8 @@ class About extends React.Component {
         <li><a href="https://velveteyes.net/features/kalli-retzepi/">VelvetEyes</a> feature</li>
         <li><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/">C41</a> Magazine feature</li>
         </ul>
-        <Link
-          style={{
-            marginBottom: rhythm(1),
-            marginTop: rhythm(1),
-          }}
-          to={`/`}
-        > back</Link>
+
+        <Link to={`/`}> back</Link>
         </div>
       </Layout>
     )

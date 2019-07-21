@@ -1,9 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
+import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -14,26 +16,43 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Kalli Retzepi" />
-        <Link to="/about/">about Kalli</Link>
-        <div style={{
-          marginBottom: rhythm(1 / 4),
-          marginTop: rhythm(1),
-          }}
-        >
+        <div>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+
           return (
-            <div key={node.fields.slug}>
-              <h3
+            <div key={node.fields.slug}
+            style={{
+              marginBottom: rhythm(5),
+            }}
+            >
+
+              <Image
+                fixed={data.thumbnail.childImageSharp.fixed}
+                alt=""
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: 0,
+                  width: '100%',
                 }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <p
+              />
+
+              <Link to={node.fields.slug}
+              style={{
+                ...scale(0.1),
+                fontWeight: `400`,
+                display: 'block',
+                textAlign: 'right',
+                border: '1px dashed pink',
+                width: 'auto',
+              }}>
+                {title} - project details
+              </Link>
+              <p style={{
+                display: 'block',
+                textAlign: 'left',
+                border: '1px dashed cyan',
+                width: 'auto',
+              }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
@@ -51,6 +70,13 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
+    thumbnail: file(absolutePath: { regex: "/1.jpg/" }) {
+      childImageSharp {
+        fixed(width: 500, height: 300) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
         title
