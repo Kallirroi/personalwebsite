@@ -16,8 +16,6 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Kalli Retzepi" />
-        <div>
-
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const imagePath = imagePaths[node.frontmatter.index-1].node.childImageSharp.fixed
@@ -35,7 +33,7 @@ class BlogIndex extends React.Component {
                 fixed={imagePath}
                 alt=""
                 style={{
-                  width: '100%',
+                  margin: '0',
                 }}
               />
 
@@ -50,7 +48,7 @@ class BlogIndex extends React.Component {
                 marginTop: rhythm(0.5),
                 border: 'none',
                 textDecoration: 'none',
-                paddingRight: rhythm(0.1),
+                letterSpacing: '2px',
               }}>
                 {title}
               </Link>
@@ -67,7 +65,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        </div>
       </Layout>
     )
   }
@@ -81,7 +78,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            fixed(width: 450, height: 300) {
+            fixed(width: 500, height: 350) {
               ...GatsbyImageSharpFixed
             }
           }

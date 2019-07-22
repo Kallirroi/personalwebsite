@@ -13,7 +13,7 @@ const options = {
       },
       'a': {
         textDecoration: 'none',
-        borderBottom: '1px solid',
+        borderBottom: '0.5px solid',
         color: '#000',
         fontFamily: 'Inter UI',
       },

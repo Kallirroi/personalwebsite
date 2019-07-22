@@ -16,11 +16,6 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <p style={{
-          marginBottom: rhythm(2),
-        }}>
-          <Link to="/">back</Link>
-        </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
     )
