@@ -1,51 +1,39 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
-import Image from "gatsby-image"
+import { graphql } from "gatsby"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+class Research extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const imagePaths = data.thumbnails.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Kalli Retzepi" />
+      <Layout
+      location={this.props.location}
+      title={siteTitle}
+      >
+        <SEO title="Research" />
+        <div style={{
+                margin: `0 auto`,
+                width: `70%`,
+              }}>
+        <p style={{
+          marginBottom: rhythm(5)
+        }}>You can read some of my writing and follow progress on personal research projects below.</p>
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
-
-          if (tag === 'project') {
-            const index = node.frontmatter.index
-            const imagePath = imagePaths[index].node.childImageSharp.fluid
+          if (tag === 'research') {
             return (
-              <div
-              key={node.fields.slug}
-              style={{
-                paddingBottom: rhythm(10),
-                margin: '0 auto',
-                display: 'block',
-                position: 'relative',
-                width: '70%'
+              <div style={{
+                marginBottom: rhythm(2)
               }}>
-                <Image
-                  fluid={imagePath}
-                  alt=""
-                  style={{
-                    margin: '0 auto',
-                    display: 'block',
-                    width: 'auto',
-                  }}
-                />
-
-                <Link to={node.fields.slug}
-                style={{
+                <Link style={{
                   fontWeight: `200`,
                   fontStyle: 'italic',
                   display: 'block',
@@ -56,14 +44,8 @@ class BlogIndex extends React.Component {
                   border: 'none',
                   textDecoration: 'none',
                   letterSpacing: '2px',
-                }}>
-                  {title}
-                </Link>
-
+                }} to={node.fields.slug} > {title} </Link>
                 <p style={{
-                  display: 'block',
-                  textAlign: 'left',
-                  width: 'auto',
                 }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
@@ -73,29 +55,20 @@ class BlogIndex extends React.Component {
             )
           }
           return (
-            <div></div>
+            <div> </div>
           )
+
         })}
+        </div>
       </Layout>
     )
   }
 }
 
-export default BlogIndex
+export default Research
 
 export const pageQuery = graphql`
   query {
-    thumbnails: allFile(filter: { absolutePath: { regex: "/thumbnails/" } }) {
-      edges {
-        node {
-          childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 340) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
     site {
       siteMetadata {
         title
