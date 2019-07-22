@@ -2,6 +2,7 @@
 title: thesis postscript
 date: "2015-05-06T23:46:37.121Z"
 description: some thoughts about thesis
+index: 12
 ---
 
 

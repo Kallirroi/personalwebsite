@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
 
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
-
+          const imagePath = imagePaths[node.frontmatter.index-1].node.childImageSharp.fixed
           return (
             <div
             key={node.fields.slug}
@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
             }}
             >
               <Image
-                fixed={imagePaths[0].node.childImageSharp.fixed}
+                fixed={imagePath}
                 alt=""
                 style={{
                   width: '100%',
@@ -100,6 +100,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            index
           }
         }
       }

@@ -2,6 +2,7 @@
 title: internet as an object
 date: "2015-05-06T23:46:37.121Z"
 description: MIT Media Lab thesis
+index: 11
 ---
 
 
