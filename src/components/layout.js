@@ -18,8 +18,7 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
+          margin: `0 auto`,
           maxWidth: rhythm(50),
         }}
       >
@@ -38,6 +37,7 @@ class Layout extends React.Component {
           display: 'inline-block',
           marginTop: rhythm(10),
           marginLeft: rhythm(10),
+          width: rhythm(35),
         }}>{children}</main>
 
       </div>

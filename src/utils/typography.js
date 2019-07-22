@@ -2,12 +2,12 @@ import Typography from 'typography'
 import theme from '../../theme'
 
 const options = {
-  headerFontFamily: [`Inter UI`, `sans-serif`],
-  bodyFontFamily: [`Inter UI`, `sans-serif`],
+  headerFontFamily: [`Standard`, `sans-serif`],
+  bodyFontFamily: [`Standard`, `sans-serif`],
   overrideStyles: () => {
     return {
       'h1,h2,h3,h4,h5,h6, div, p, a, span': {
-        fontFamily: 'Inter UI',
+        fontFamily: 'Standard',
         fontSize: '14px',
         lineHeight: '18px'
       },
@@ -15,16 +15,18 @@ const options = {
         textDecoration: 'none',
         borderBottom: '0.5px solid',
         color: '#000',
-        fontFamily: 'Inter UI',
+        fontFamily: 'Standard',
       },
       'a:hover': {
-        color: '#fff',
-        background: '#000',
+        // color: '#ebef00',
+        color: '#00d3e2',
+        // color: '#2441B7',
+        // color: '#F22F37',
       },
       'ul, li': {
-        listStyleType: 'none',
+        // listStyleType: 'none',
         padding: 0,
-        margin: 0
+        margin: 0,
       },
     }
   },

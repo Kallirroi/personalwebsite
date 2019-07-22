@@ -2,7 +2,7 @@
 title: internet as an object
 date: "2015-05-06T23:46:37.121Z"
 description: MIT Media Lab thesis
-index: 11
+index: 1
 ---
 
 
@@ -10,16 +10,16 @@ This project lies in the intersection of three avenues: physical non-screen inte
 
 I kept a weekly journal of my progress, which you can find <a href="https://there.am/pwr01-internet-as-an-object/" target="_blank"> here</a>.
 
-<span class="caption">Prototyping:</span>
+#### Prototyping
 ![Prototyping](grid.png)
 
-<span class="caption">Drawings for overall concept:</span>
+#### Drawings for overall concept
 ![drawings](drawings.png)
 
-<span class="caption">Electronics:</span>
+#### Electronics
 ![electronics](electronics.png)
 
-<span class="caption">Final 3D printed models:</span>
+#### Final 3D printed models
 ![model](1.JPG)
 
 ![model](2.JPG)
@@ -28,9 +28,4 @@ I kept a weekly journal of my progress, which you can find <a href="https://ther
 
 ![model](4.JPG)
 
-<span class="caption">Two of the four locations the objects were installed:</span>
-![installation](installation.png)
-
-
-
-<span class="caption">Copyright Kalli Retzepi 2019</span>
+copyright Kalli Retzepi 2019

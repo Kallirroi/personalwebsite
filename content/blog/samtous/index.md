@@ -1,8 +1,8 @@
 ---
 title: samtous.wtf
 date: "2015-05-06T23:46:37.121Z"
-description: freelance web design and development
-index: 9
+description: A freelance web design and development project for a young architect.
+index: 14
 ---
 
 

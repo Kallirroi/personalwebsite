@@ -1,8 +1,8 @@
 ---
 title: thesis postscript
 date: "2015-05-06T23:46:37.121Z"
-description: some thoughts about thesis
-index: 12
+description: Some thoughts about design and decentralization
+index: 2
 ---
 
 
@@ -36,7 +36,8 @@ Lastly, focusing on the network and how it can communicate the quality of "decen
 - which nodes are actively supporting a certain file or data piece
 - in the specific case of my thesis (the data of my choice is audio files), the network can at all times compute an "average voice", and offer to play it back to a user. The more messages someone records, the more the average voice will sound like theirs.
 
-#### Next?
+### Next?
+
 To be honest, I am not sure where I can go from here, given that I am graduating in three weeks and then have to find a job I guess? I do know that I very much enjoy spending time thinking about the above, trying to see how I can most fluidly move between concepts and use design as a metaphorical vehicle.
 
 I have also identified some questions that might merit some long-form writing, namely:

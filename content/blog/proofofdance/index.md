@@ -1,8 +1,8 @@
 ---
 title: proof of dance
 date: "2015-05-06T23:46:37.121Z"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-index: 6
+description: A very Media Lab project that reimagines the popular Dance Dance Revolution game in the age of blockchain. How much (fake) Ethereum can you mine by doing the dance moves right? It was quite the hit all times we set it up at the Lab.
+index: 9
 ---
 
 For a party at the Lab, we made a blockchain-based Dance Dance Revolution game that mines (fake) Ether. You can see me dancemining here:

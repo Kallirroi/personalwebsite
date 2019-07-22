@@ -1,8 +1,8 @@
 ---
 title: the quiet spaces
 date: "2015-05-06T23:46:37.121Z"
-description: speculative interfaces
-index: 10
+description: A speculative interfaces research project that reimagines the most commonly used online interfaces stripped of their informational content. 
+index: 4
 ---
 
 

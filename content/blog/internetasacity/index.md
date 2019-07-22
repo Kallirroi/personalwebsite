@@ -1,8 +1,8 @@
 ---
 title: internet as a city
 date: "2015-05-06T23:46:37.121Z"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-index: 4
+description: If the Internet were a city, what would be its roads, buildings, and parks? How do people, businesses and governing bodies produce insights into the qualitative characteristics of distribution beyond the tired triptych of centralized, decentralized, and distributed? In led a workshop where we examined decentralized forms of networking through the lenses of cities, urbanism, and architecture. Participants were provided with “urban” elements to construct landscapes that tease out models of decentralization and governance for the “Internet as a city.”
+index: 8
 ---
 
 

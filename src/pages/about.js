@@ -26,7 +26,9 @@ class About extends React.Component {
           <h4 style={{
             marginTop: rhythm(1),
           }}>contact</h4>
-          <ul>
+          <ul style={{
+                  listStyleType: 'none',
+                }}>
           <li><a href="mailto:kalli@mit.edu" target="_blank">email</a></li>
           <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
           <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
@@ -36,7 +38,9 @@ class About extends React.Component {
           <h4 style={{
             marginTop: rhythm(1),
           }}>workshops / talks / abstracts</h4>
-          <ul>
+          <ul style={{
+                  listStyleType: 'none',
+                }}>
           <li>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</li>
           <li>“Questions of utopia in the era of decentralisation” (co-author), XIV. <a href="https://www.bauhaus-kolloquium.de/">Internationales Bauhaus-Kolloquium</a>, 2019</li>
           <li>Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
@@ -47,7 +51,9 @@ class About extends React.Component {
           <h4 style={{
             marginTop: rhythm(1),
           }}>online features </h4>
-          <ul>
+          <ul style={{
+                  listStyleType: 'none',
+                }}>
           <li><a href="https://walkerart.org/magazine/soundboard-reenvisioning-internet-gary-zhexi-zhang">clickhere</a> - Reinvisioning the Internet, by Gary Zhexi Zhang</li>
           <li><a href="http://www.internetactu.net/2019/01/14/retro-design-de-lattention-cest-complique/">the quiet spaces</a> - Rétro-design de l’attention, by Hubert Guillaud</li>
           <li><a href="https://news.sky.com/story/in-the-future-youll-mine-cryptocurrency-by-dancing-11374514"> proof of dance </a> - on Sky News</li>

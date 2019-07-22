@@ -1,8 +1,8 @@
 ---
 title: clickhere
 date: "2015-05-06T23:46:37.121Z"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-index: 2
+description: What does the browser window look like if we highlight the attention-hungry elements? I developed a Chrome plugin that automatically transforms a page to an abstract attentional tapestry. 
+index: 6
 ---
 
 

@@ -18,13 +18,12 @@ class BlogIndex extends React.Component {
         <SEO title="Kalli Retzepi" />
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
-          const imagePath = imagePaths[node.frontmatter.index-1].node.childImageSharp.fixed
+          const imagePath = imagePaths[0].node.childImageSharp.fixed
           return (
             <div
             key={node.fields.slug}
             style={{
               paddingBottom: rhythm(10),
-              width: '70%',
               margin: '0 auto',
               display: 'block',
               position: 'relative',
@@ -33,7 +32,10 @@ class BlogIndex extends React.Component {
                 fixed={imagePath}
                 alt=""
                 style={{
-                  margin: '0',
+                  margin: '0 auto',
+                  display: 'block',
+                  width: 'auto',
+                  backgroundPosition: 'center center'
                 }}
               />
 
