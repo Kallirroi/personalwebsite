@@ -3,6 +3,7 @@ title: thesis postscript
 date: "2015-05-06T23:46:37.121Z"
 description: Some thoughts about design and decentralization
 index: 2
+tag: research
 ---
 
 

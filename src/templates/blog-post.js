@@ -16,7 +16,11 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div style={{
+                margin: `0 auto`,
+                width: `70%`,
+              }}
+              dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
     )
   }

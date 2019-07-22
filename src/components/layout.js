@@ -11,8 +11,22 @@ class Layout extends React.Component {
 
     navbar = (
       <div>
-          <p><Link to={`/`}> projects </Link></p>
-          <p><Link to={`/about/`}>about </Link></p>
+          <div><Link style={{
+            lineHeight: '22px',
+            borderBottom: '0'
+          }} to={`/`}> selected projects </Link></div>
+          <div><Link style={{
+            lineHeight: '22px',
+            borderBottom: '0'
+          }} to={`/research/`}> research </Link></div>
+          <div><Link style={{
+            lineHeight: '22px',
+            borderBottom: '0'
+          }} to={`/misc/`}> misc </Link></div>
+          <div><Link style={{
+            lineHeight: '22px',
+            borderBottom: '0'
+          }} to={`/about/`}>about </Link></div>
       </div>
     )
     return (
@@ -28,8 +42,6 @@ class Layout extends React.Component {
           marginTop: rhythm(10),
           width: rhythm(10),
           letterSpacing: '2px',
-          fontSize: '16px',
-          lineHeight: '22px',
           position: 'fixed',
         }}>{navbar}</div>
 

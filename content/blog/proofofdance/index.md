@@ -2,7 +2,8 @@
 title: proof of dance
 date: "2015-05-06T23:46:37.121Z"
 description: A very Media Lab project that reimagines the popular Dance Dance Revolution game in the age of blockchain. How much (fake) Ethereum can you mine by doing the dance moves right? It was quite the hit all times we set it up at the Lab.
-index: 9
+index: 8
+tag: misc
 ---
 
 For a party at the Lab, we made a blockchain-based Dance Dance Revolution game that mines (fake) Ether. You can see me dancemining here:
@@ -12,11 +13,8 @@ For a party at the Lab, we made a blockchain-based Dance Dance Revolution game t
 and you can read more on the story by Sky News <a href="https://news.sky.com/story/in-the-future-youll-mine-cryptocurrency-by-dancing-11374514" target="_blank">here</a>.
 ![altcaption](proofofdance.png)
 
-<span class="caption">Making the dance mat:</span>
+Making the dance mat using the shop bot:
 ![altcaption](proofofdance1.JPG)
 
-<span class="caption">Start of the night: 699 blocks mined.</span>
-![altcaption](2.jpg)
-
-<span class="caption">End of the night: more than 10K blocks mined, and the interface kinda broke.💥💥💥</span>
+End of the night: more than 10K blocks mined, and the interface kinda broke.💥💥💥
 ![altcaption](3.jpg)
