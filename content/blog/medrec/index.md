@@ -1,7 +1,7 @@
 ---
 title: medrec
 date: "2015-05-06T23:46:37.121Z"
-description: A blockchain-based system to manage permissions to medical records.
+description: An open-source Ethereum based system to manage permissions to medical records using a blockchain. 
 index: 3
 tag: project
 ---
