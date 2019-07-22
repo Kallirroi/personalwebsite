@@ -2,7 +2,7 @@
 title: medrec
 date: "2015-05-06T23:46:37.121Z"
 description: A blockchain-based system to manage permissions to medical records.
-index: 4
+index: 3
 tag: project
 ---
 
