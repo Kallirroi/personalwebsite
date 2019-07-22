@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
               width: '70%',
               margin: '0 auto',
               display: 'block',
-              position: 'relative'
+              position: 'relative',
             }}
             >
               <Image
@@ -37,6 +37,7 @@ class BlogIndex extends React.Component {
                 alt=""
                 style={{
                   width: '100%',
+                  border: '1px solid',
                 }}
               />
 
@@ -89,7 +90,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___index], order: ASC }) {
       edges {
         node {
           excerpt
