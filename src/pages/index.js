@@ -30,24 +30,27 @@ class BlogIndex extends React.Component {
               margin: '0 auto',
               display: 'block',
               position: 'relative',
-            }}
-            >
+            }}>
               <Image
                 fixed={imagePath}
                 alt=""
                 style={{
                   width: '100%',
-                  border: '1px solid',
                 }}
               />
 
               <Link to={node.fields.slug}
               style={{
-                fontWeight: `400`,
+                fontWeight: `200`,
+                fontStyle: 'italic',
                 display: 'block',
                 textAlign: 'right',
                 width: 'auto',
-                marginBottom: rhythm(2),
+                marginBottom: rhythm(0.5),
+                marginTop: rhythm(0.5),
+                border: 'none',
+                textDecoration: 'none',
+                paddingRight: rhythm(0.1),
               }}>
                 {title}
               </Link>

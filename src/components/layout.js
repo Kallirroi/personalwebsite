@@ -11,8 +11,14 @@ class Layout extends React.Component {
 
     navbar = (
       <aside>
-          <p><Link to={`/`}> selected projects </Link></p>
-          <p><Link to="/about/">about Kalli</Link></p>
+          <div><Link to={`/`}
+          style={{
+            fontWeight: '400',
+          }}> selected projects </Link></div>
+          <div><Link to={`/about/`}
+          style={{
+            fontWeight: '400',
+          }}>about Kalli</Link></div>
       </aside>
     )
     return (
@@ -25,14 +31,13 @@ class Layout extends React.Component {
         }}
       >
         <div style={{
-          border: '1px solid pink',
+          border: '1px dotted pink',
           display: 'inline-block',
           float: 'left',
           width: rhythm(10),
         }}>{navbar}</div>
 
         <main style={{
-          border: '1px solid blue',
           display: 'inline-block',
           float: 'right',
           width: rhythm(40),

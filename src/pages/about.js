@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
+import { rhythm, scale } from "../utils/typography"
 
 class About extends React.Component {
   render() {
@@ -16,10 +17,17 @@ class About extends React.Component {
       title={siteTitle}>
         <SEO title="About" />
         <div>
-        <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. </p>
-        <p>CV and portfolio available upon request.</p>
+        <p style={{
+          marginBottom: rhythm(2),
+        }}>
+          <Link to={`/`}>back</Link>
+        </p>
 
-        <h3>contact</h3>
+        <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. CV and portfolio available upon request.</p>
+
+        <h4 style={{
+          marginTop: rhythm(1),
+        }}>contact</h4>
         <ul>
         <li><a href="mailto:kalli@mit.edu" target="_blank">email</a></li>
         <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
@@ -27,7 +35,9 @@ class About extends React.Component {
         <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
         </ul>
 
-        <h3>workshops / talks / abstracts</h3>
+        <h4 style={{
+          marginTop: rhythm(1),
+        }}>workshops / talks / abstracts</h4>
         <ul>
         <li>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</li>
         <li>“Questions of utopia in the era of decentralisation” (co-author), XIV. <a href="https://www.bauhaus-kolloquium.de/">Internationales Bauhaus-Kolloquium</a>, 2019</li>
@@ -36,7 +46,9 @@ class About extends React.Component {
         </ul>
 
 
-        <h3>online features </h3>
+        <h4 style={{
+          marginTop: rhythm(1),
+        }}>online features </h4>
         <ul>
         <li><a href="https://walkerart.org/magazine/soundboard-reenvisioning-internet-gary-zhexi-zhang">clickhere</a> - Reinvisioning the Internet, by Gary Zhexi Zhang</li>
         <li><a href="http://www.internetactu.net/2019/01/14/retro-design-de-lattention-cest-complique/">the quiet spaces</a> - Rétro-design de l’attention, by Hubert Guillaud</li>
@@ -47,7 +59,6 @@ class About extends React.Component {
         <li><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/">C41</a> Magazine feature</li>
         </ul>
 
-        <Link to={`/`}> back</Link>
         </div>
       </Layout>
     )
