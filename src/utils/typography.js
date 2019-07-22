@@ -7,19 +7,18 @@ const options = {
   overrideStyles: () => {
     return {
       'h1,h2,h3,h4,h5,h6, div, p, a, span': {
-        fontFamily: 'Standard',
+        fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
         fontSize: '14px',
-        lineHeight: '18px'
+        lineHeight: '18px',
       },
       'a': {
         textDecoration: 'none',
         borderBottom: '0.5px solid',
         color: '#000',
-        fontFamily: 'Standard',
       },
       'a:hover': {
-        // color: '#ebef00',
-        color: '#00d3e2',
+        color: '#bbb',
+        // color: '#00d3e2',
         // color: '#2441B7',
         // color: '#F22F37',
       },

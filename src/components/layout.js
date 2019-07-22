@@ -11,20 +11,20 @@ class Layout extends React.Component {
 
     navbar = (
       <div>
-          <div><Link style={{
-            lineHeight: '22px',
+          <div><Link activeStyle={{ color: '#bbb' }} style={{
+            lineHeight: '20px',
             borderBottom: '0'
           }} to={`/`}> selected projects </Link></div>
-          <div><Link style={{
-            lineHeight: '22px',
+          <div><Link activeStyle={{ color: '#bbb' }} style={{
+            lineHeight: '20px',
             borderBottom: '0'
           }} to={`/research/`}> research </Link></div>
-          <div><Link style={{
-            lineHeight: '22px',
+          <div><Link activeStyle={{ color: '#bbb' }} style={{
+            lineHeight: '20px',
             borderBottom: '0'
           }} to={`/misc/`}> misc </Link></div>
-          <div><Link style={{
-            lineHeight: '22px',
+          <div><Link activeStyle={{ color: '#bbb' }} style={{
+            lineHeight: '20px',
             borderBottom: '0'
           }} to={`/about/`}>about </Link></div>
       </div>

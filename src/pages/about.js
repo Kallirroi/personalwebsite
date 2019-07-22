@@ -28,6 +28,7 @@ class About extends React.Component {
           }}>contact</h4>
           <ul style={{
                   listStyleType: 'none',
+                  lineHeight: '22px'
                 }}>
           <li><a href="mailto:kalli@mit.edu" target="_blank">email</a></li>
           <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
@@ -40,9 +41,9 @@ class About extends React.Component {
           }}>workshops / talks / abstracts</h4>
           <ul style={{
                   listStyleType: 'none',
+                  lineHeight: '22px'
                 }}>
           <li>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</li>
-          <li>“Questions of utopia in the era of decentralisation” (co-author), XIV. <a href="https://www.bauhaus-kolloquium.de/">Internationales Bauhaus-Kolloquium</a>, 2019</li>
           <li>Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
           <li>“Internet as a city”, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
           </ul>
@@ -53,6 +54,7 @@ class About extends React.Component {
           }}>online features </h4>
           <ul style={{
                   listStyleType: 'none',
+                  lineHeight: '22px'
                 }}>
           <li><a href="https://walkerart.org/magazine/soundboard-reenvisioning-internet-gary-zhexi-zhang">clickhere</a> - Reinvisioning the Internet, by Gary Zhexi Zhang</li>
           <li><a href="http://www.internetactu.net/2019/01/14/retro-design-de-lattention-cest-complique/">the quiet spaces</a> - Rétro-design de l’attention, by Hubert Guillaud</li>

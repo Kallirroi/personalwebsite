@@ -22,16 +22,33 @@ class Misc extends React.Component {
                 margin: `0 auto`,
                 width: `70%`,
               }}>
-        <p>Various interests and fun projects are here.</p>
+        <p style={{
+          marginBottom: rhythm(5)
+        }}>Otherwise unclassifiable projects and interests are here.</p>
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
           if (tag === 'misc') {
             return (
               <div style={{
-                marginBottom: rhythm(0.5),
+                marginBottom: rhythm(2)
               }}>
-                <Link to={node.fields.slug} > {title} </Link>
+                <Link  style={{
+                  fontWeight: `200`,
+                  fontStyle: 'italic',
+                  display: 'block',
+                  textAlign: 'center',
+                  width: 'auto',
+                  marginBottom: rhythm(0.5),
+                  marginTop: rhythm(0.5),
+                  border: 'none',
+                  textDecoration: 'none',
+                  letterSpacing: '2px',
+                }} to={node.fields.slug} > {title} </Link>
+                <p dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
               </div>
             )
           }

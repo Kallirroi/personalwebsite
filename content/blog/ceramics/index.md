@@ -1,7 +1,7 @@
 ---
-title: film photography
+title: ceramics
 date: "2015-05-06T23:46:37.121Z"
-description: A small selection of my film photographs.
+description: I started wheel throwing last year, and it has been such a joy!
 index: 11
 tag: misc
 ---

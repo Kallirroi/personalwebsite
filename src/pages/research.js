@@ -22,16 +22,35 @@ class Research extends React.Component {
                 margin: `0 auto`,
                 width: `70%`,
               }}>
-        <p>Resarch is here.</p>
+        <p style={{
+          marginBottom: rhythm(5)
+        }}>You can read some of my writing and follow progress on personal research projects below.</p>
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
           if (tag === 'research') {
             return (
               <div style={{
-                marginBottom: rhythm(0.5),
+                marginBottom: rhythm(2)
               }}>
-                <Link to={node.fields.slug} > {title} </Link>
+                <Link style={{
+                  fontWeight: `200`,
+                  fontStyle: 'italic',
+                  display: 'block',
+                  textAlign: 'center',
+                  width: 'auto',
+                  marginBottom: rhythm(0.5),
+                  marginTop: rhythm(0.5),
+                  border: 'none',
+                  textDecoration: 'none',
+                  letterSpacing: '2px',
+                }} to={node.fields.slug} > {title} </Link>
+                <p style={{
+                }}
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
               </div>
             )
           }

@@ -1,7 +1,7 @@
 ---
 title: thesis postscript
 date: "2015-05-06T23:46:37.121Z"
-description: Some thoughts about design and decentralization
+description: Some thoughts about design and decentralization, inspired by my thesis at the Media Lab.
 index: 2
 tag: research
 ---
@@ -13,7 +13,8 @@ Unfortunately though, I was not left with enough mental, creative and physical b
 
 To be clear, I did feel challenged, and quite a lot - but it was not satisfying neither it was fulfilling. And for that, I am a bit sad. My truest intention for this project was never to make something that "works". I was always more interested in the fruits of this process being closer to an art piece, an installation, a provocation. My aim was (and still is) to ask a good question and leave it linger, rather than conjure a satisfactory semi-answer. In the following paragraphs I will lay out some core preoccupations that motivated my work. I will then offer some interaction design directions this project could take going forward, that are free from institutional expectations.
 
-#### How to think about design in the context of decentralization?
+### How to think about design in the context of decentralization?
+
 In very simple terms, my aim was to create network-forming, physical objects that "perform" decentralization. How is the quality of decentralization communicated via the affordances of interaction, of material, or form?
 
 In the work I presented for the scope of my degree I opted for simple interaction (a button push), a single and quite textured material (3D-printed, semi-translucent PLA filament) giving off a slightly "soft" aesthetic, and a form that alluded to objects that evoked a certain nostalgia (resembling speaker units of mid 20th century telephones). I focused on a single node-object, making sure it responded to the requirements I had identified, whereas I could have expanded my interest into the ensemble of nodes and their collective behavior.
@@ -26,7 +27,9 @@ How can I then approach the "concept" of decentralization via design? Here are s
 - the more nodes supporting the same content, the "safer" that content is
 - but the less nodes support the content, the more vulnerable it is
 
-Great, I know have some mental models to describe the network and individual nodes' behavior. What are some design metaphors I can use? How can "conserved information" be communicated? Some ideas:
+Great, I know have some mental models to describe the network and individual nodes' behavior. What are some design metaphors I can use? How can "conserved information" be communicated?
+
+### Some ideas:
 - adding liquid to a recipient
 - blowing air
 - adding a certain mass, e.g. a bead or a small cube
@@ -37,6 +40,7 @@ Lastly, focusing on the network and how it can communicate the quality of "decen
 - which nodes are actively supporting a certain file or data piece
 - in the specific case of my thesis (the data of my choice is audio files), the network can at all times compute an "average voice", and offer to play it back to a user. The more messages someone records, the more the average voice will sound like theirs.
 
+&nbsp
 ### Next?
 
 To be honest, I am not sure where I can go from here, given that I am graduating in three weeks and then have to find a job I guess? I do know that I very much enjoy spending time thinking about the above, trying to see how I can most fluidly move between concepts and use design as a metaphorical vehicle.
@@ -45,6 +49,8 @@ I have also identified some questions that might merit some long-form writing, n
 - is there value to the "softness vs hardness" argument (which to an extent is conflated with the "nostalgia" argument) that is being put forward by a lot of people in the distributed Web community?
 - how to identify "good" centralization?
 - what does decentralization mean in the context of a "liquid" (in the [Zygmunt Bauman](https://en.wikipedia.org/wiki/Zygmunt_Bauman) sense) world?
+
+&nbsp
 
 That's it for now. Thank you for reading!
 
