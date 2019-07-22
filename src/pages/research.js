@@ -29,16 +29,7 @@ class Research extends React.Component {
           if (tag === 'research') {
             return (
               <div style={{
-                // fontWeight: `200`,
-                // fontStyle: 'italic',
-                // display: 'block',
-                // textAlign: 'center',
-                // width: 'auto',
                 marginBottom: rhythm(0.5),
-                // marginTop: rhythm(0.5),
-                // border: 'none',
-                borderBottom: '0',
-                // letterSpacing: '2px',
               }}>
                 <Link to={node.fields.slug} > {title} </Link>
               </div>

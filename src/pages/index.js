@@ -19,54 +19,61 @@ class BlogIndex extends React.Component {
         <SEO title="Kalli Retzepi" />
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
-          const imagePath = imagePaths[2].node.childImageSharp.fluid
+          const tag = node.frontmatter.tag
 
-          return (
-            <div
-            key={node.fields.slug}
-            style={{
-              paddingBottom: rhythm(10),
-              margin: '0 auto',
-              display: 'block',
-              position: 'relative',
-              width: '70%'
-            }}>
-              <Image
-                fluid={imagePath}
-                alt=""
+          if (tag === 'project') {
+            const index = node.frontmatter.index
+            const imagePath = imagePaths[index].node.childImageSharp.fluid
+            return (
+              <div
+              key={node.fields.slug}
+              style={{
+                paddingBottom: rhythm(10),
+                margin: '0 auto',
+                display: 'block',
+                position: 'relative',
+                width: '70%'
+              }}>
+                <Image
+                  fluid={imagePath}
+                  alt=""
+                  style={{
+                    margin: '0 auto',
+                    display: 'block',
+                    width: 'auto',
+                  }}
+                />
+
+                <Link to={node.fields.slug}
                 style={{
-                  margin: '0 auto',
+                  fontWeight: `200`,
+                  fontStyle: 'italic',
                   display: 'block',
+                  textAlign: 'center',
+                  width: 'auto',
+                  marginBottom: rhythm(0.5),
+                  marginTop: rhythm(0.5),
+                  border: 'none',
+                  textDecoration: 'none',
+                  letterSpacing: '2px',
+                }}>
+                  {title}
+                </Link>
+
+                <p style={{
+                  display: 'block',
+                  textAlign: 'left',
                   width: 'auto',
                 }}
-              />
-
-              <Link to={node.fields.slug}
-              style={{
-                fontWeight: `200`,
-                fontStyle: 'italic',
-                display: 'block',
-                textAlign: 'center',
-                width: 'auto',
-                marginBottom: rhythm(0.5),
-                marginTop: rhythm(0.5),
-                border: 'none',
-                textDecoration: 'none',
-                letterSpacing: '2px',
-              }}>
-                {title}
-              </Link>
-
-              <p style={{
-                display: 'block',
-                textAlign: 'left',
-                width: 'auto',
-              }}
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </div>
+            )
+          }
+          return (
+            <div></div>
           )
         })}
       </Layout>
@@ -106,6 +113,7 @@ export const pageQuery = graphql`
             title
             description
             index
+            tag
           }
         }
       }
