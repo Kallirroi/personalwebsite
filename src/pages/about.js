@@ -45,6 +45,7 @@ class About extends React.Component {
                 }}>
           <li>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</li>
           <li>Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
+          <li>“Sense objects”, Ginko Bioworks <a href="https://extrapolationfactory.com/Sense-Objects">workshop</a>, 2018</li>
           <li>“Internet as a city”, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
           </ul>
 

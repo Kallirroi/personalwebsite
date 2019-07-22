@@ -39,7 +39,7 @@ class BlogIndex extends React.Component {
                   alt=""
                   style={{
                     margin: '0 auto',
-                    display: 'block',
+                    display: 'none',
                     width: 'auto',
                   }}
                 />
