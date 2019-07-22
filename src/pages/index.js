@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
               <div
               key={node.fields.slug}
               style={{
-                paddingBottom: rhythm(10),
+                paddingBottom: rhythm(2),
                 margin: '0 auto',
                 display: 'block',
                 position: 'relative',
