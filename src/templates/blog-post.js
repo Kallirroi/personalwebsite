@@ -12,38 +12,46 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const tag = post.frontmatter.tag
     let imagePath
+    let image
     if (tag === 'project') {
       const imagePaths = this.props.data.thumbnails.edges
-      const index = post.frontmatter.index
+      const index = post.frontmatter.index -1
       imagePath = imagePaths[index].node.childImageSharp.fluid
+      image = (
+        <div>
+          <Image
+            fluid={imagePath}
+            alt=""
+            style={{
+              margin: '0 auto',
+              display: 'block',
+              position: 'relative',
+              left: 0,
+              top: 0,
+              width: '100vw',
+              height: '100vh',
+              zIndex: 1
+            }} />
+        </div>
+      )
     }
 
     return (
+      <div>
+      {image}
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <Image
-          fluid={ tag==='project' ? imagePath : 'gatsby-icon.png'}
-          alt=""
-          style={{
-            margin: '0 auto',
-            display: 'inline-block',
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            zIndex: '-1',
-            width: '100%',
-          }} />
         <div style={{
             margin: `0 auto`,
             width: `70%`,
             position: 'relative',
-            display: 'block'
-          }}
-          dangerouslySetInnerHTML={{ __html: post.html }} />
+            display: 'block',
+          }} dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
+      </div>
     )
   }
 }
@@ -52,11 +60,11 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    thumbnails: allFile(filter: { absolutePath: { regex: "/thumbnails/" } }) {
+    thumbnails: allFile(filter: { absolutePath: { regex: "/heros/" } }) {
       edges {
         node {
           childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 340, quality: 100) {
+            fluid(maxWidth: 3000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -33,6 +33,8 @@ class Layout extends React.Component {
       <div
         style={{
           margin: `0 auto`,
+          display: 'block',
+          position: 'relative',
           maxWidth: rhythm(50),
         }}
       >
@@ -43,12 +45,14 @@ class Layout extends React.Component {
           width: rhythm(10),
           letterSpacing: '2px',
           position: 'fixed',
+          top: 0,
         }}>{navbar}</div>
 
         <main style={{
           display: 'inline-block',
           marginTop: rhythm(10),
           marginLeft: rhythm(10),
+          marginBottom: rhythm(10),
           width: rhythm(35),
         }}>{children}</main>
 
