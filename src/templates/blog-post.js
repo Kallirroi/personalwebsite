@@ -11,11 +11,10 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const tag = post.frontmatter.tag
-    let imagePath = ''
+    let imagePath
     if (tag === 'project') {
       const imagePaths = this.props.data.thumbnails.edges
       const index = post.frontmatter.index
-      console.log(index)
       imagePath = imagePaths[index].node.childImageSharp.fluid
     }
 
@@ -26,7 +25,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <Image
-          fluid={imagePath}
+          fluid={ tag==='project' ? imagePath : 'gatsby-icon.png'}
           alt=""
           style={{
             margin: '0 auto',
