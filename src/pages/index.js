@@ -24,7 +24,6 @@ class BlogIndex extends React.Component {
           if (tag === 'project') {
             const index = node.frontmatter.index - 1
             const imagePath = imagePaths[index].node.childImageSharp.fluid
-            console.log(index, imagePath.src)
             return (
               <div
               key={node.fields.slug}
