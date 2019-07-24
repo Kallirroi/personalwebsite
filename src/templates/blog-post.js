@@ -24,7 +24,7 @@ class BlogPostTemplate extends React.Component {
             alt=""
             style={{
               margin: '0 auto',
-              display: 'block',
+              display: 'none',
               position: 'relative',
               left: 0,
               top: 0,
@@ -38,7 +38,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-      {image}
+     {image}
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
