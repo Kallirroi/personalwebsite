@@ -12,7 +12,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const imagePaths = data.thumbnails.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,8 +21,8 @@ class BlogIndex extends React.Component {
           const tag = node.frontmatter.tag
 
           if (tag === 'project') {
-            const index = node.frontmatter.index - 1
-            const imagePath = imagePaths[index].node.childImageSharp.fluid
+            const imageName = `/landingpage/${node.frontmatter.imagePath}.gif`
+
             return (
               <div
               key={node.fields.slug}
@@ -34,8 +33,8 @@ class BlogIndex extends React.Component {
                 position: 'relative',
                 width: '70%'
               }}>
-                <Image
-                  fluid={imagePath}
+                <img
+                  src={imageName}
                   alt=""
                   style={{
                     margin: '0 auto',
@@ -85,17 +84,6 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    thumbnails: allFile(filter: { absolutePath: { regex: "/thumbnails/" } }) {
-      edges {
-        node {
-          childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 340, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
     site {
       siteMetadata {
         title
@@ -114,6 +102,7 @@ export const pageQuery = graphql`
             description
             index
             tag
+            imagePath
           }
         }
       }

@@ -4,6 +4,7 @@ date: "2015-05-06T23:46:37.121Z"
 description: An open-source Ethereum based system to manage permissions to medical records using a blockchain.
 index: 4
 tag: project
+imagePath: medrec
 ---
 
 

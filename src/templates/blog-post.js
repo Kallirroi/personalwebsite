@@ -11,34 +11,9 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const tag = post.frontmatter.tag
-    let imagePath
-    let image
-    if (tag === 'project') {
-      const imagePaths = this.props.data.thumbnails.edges
-      const index = post.frontmatter.index -1
-      imagePath = imagePaths[index].node.childImageSharp.fluid
-      image = (
-        <div>
-          <Image
-            fluid={imagePath}
-            alt=""
-            style={{
-              margin: '0 auto',
-              display: 'none',
-              position: 'relative',
-              left: 0,
-              top: 0,
-              width: '100vw',
-              height: '100vh',
-              zIndex: 1
-            }} />
-        </div>
-      )
-    }
 
     return (
       <div>
-     {image}
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
