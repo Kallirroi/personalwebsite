@@ -2,7 +2,7 @@
 title: thoughtless acts
 date: "2015-05-06T23:46:37.121Z"
 description: A photographic exercise in seeing versus looking.
-index: 15
+index: 3
 tag: misc
 ---
 

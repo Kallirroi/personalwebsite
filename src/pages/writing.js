@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { rhythm, scale } from "../utils/typography"
 
-class Research extends React.Component {
+class Writing extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -17,23 +17,25 @@ class Research extends React.Component {
       location={this.props.location}
       title={siteTitle}
       >
-        <SEO title="Research" />
+        <SEO title="Writing" />
         <div style={{
                 margin: `0 auto`,
                 width: `70%`,
               }}>
         <p style={{
           marginBottom: rhythm(5)
-        }}>You can follow my progress on personal research projects below. All of what you see is self initiated, and I am aware it might come across as underdeveloped. I am constantly coming back and iterating.</p>
+        }}>
+        Musings about things related to culture and technology.
+        </p>
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
-          if (tag === 'research') {
+          if (tag === 'writing') {
             return (
               <div style={{
                 marginBottom: rhythm(2)
               }}>
-                <Link style={{
+                <Link  style={{
                   fontWeight: `200`,
                   fontStyle: 'italic',
                   display: 'block',
@@ -45,9 +47,7 @@ class Research extends React.Component {
                   textDecoration: 'none',
                   letterSpacing: '2px',
                 }} to={node.fields.slug} > {title} </Link>
-                <p style={{
-                }}
-                  dangerouslySetInnerHTML={{
+                <p dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
@@ -65,7 +65,7 @@ class Research extends React.Component {
   }
 }
 
-export default Research
+export default Writing
 
 export const pageQuery = graphql`
   query {

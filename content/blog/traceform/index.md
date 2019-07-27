@@ -2,7 +2,7 @@
 title: traceForm
 date: "2015-05-06T23:46:37.121Z"
 description: The final project for Hiroshi Ishii's 'Tangible Interfaces' class at the Media Lab, where we used a tactile shape display to simulate a browser environment for the visually impaired.
-index: 9
+index: 5
 tag: misc
 ---
 

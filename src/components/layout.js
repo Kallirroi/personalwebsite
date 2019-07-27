@@ -22,6 +22,10 @@ class Layout extends React.Component {
           <div><Link activeStyle={{ color: '#00d3e2' }} style={{
             lineHeight: '20px',
             borderBottom: '0'
+          }} to={`/writing/`}> writing </Link></div>
+          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+            lineHeight: '20px',
+            borderBottom: '0'
           }} to={`/misc/`}> misc </Link></div>
           <div><Link activeStyle={{ color: '#00d3e2' }} style={{
             lineHeight: '20px',

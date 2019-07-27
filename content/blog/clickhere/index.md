@@ -9,27 +9,18 @@ tag: project
 
 I made a Chrome extension that strips each page down to the most interaction-hungry elements.
 
-![altcaption](google.jpg)
+![altcaption](google.png)
 
 &nbsp
 
-![altcaption](insta.jpg)
+![altcaption](insta.png)
 
 &nbsp
 
-![altcaption](amazon.jpg)
+![altcaption](amazon.png)
 
 &nbsp
 
-![altcaption](twitter.jpg)
+![altcaption](twitter.png)
 
-&nbsp
-
-![altcaption](googlenews.png)
-
-&nbsp
-
-![altcaption](ebay.png)
-
-
-<span class="caption">Copyright Kalli Retzepi 2019</span>
+Copyright Kalli Retzepi 2019

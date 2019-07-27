@@ -49,7 +49,7 @@ class BlogIndex extends React.Component {
                   fontWeight: `200`,
                   fontStyle: 'italic',
                   display: 'block',
-                  textAlign: 'center',
+                  textAlign: 'left',
                   width: 'auto',
                   marginBottom: rhythm(0.5),
                   marginTop: rhythm(0.5),
