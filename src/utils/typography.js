@@ -27,6 +27,19 @@ const options = {
         padding: 0,
         margin: 0,
       },
+      '@media screen and (max-width: 760px)': {
+        '.navbar': {
+          // background: 'cyan',
+          letterSpacing: '2px',
+          position: 'absolute',
+          marginTop: 0,
+          width: '100vw',
+          top: 0,
+        },
+        '.main': {
+          // background: '#ff0',
+        },
+      },
     }
   },
 }

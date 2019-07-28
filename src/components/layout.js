@@ -34,29 +34,29 @@ class Layout extends React.Component {
       </div>
     )
     return (
-      <div
+      <div className='container'
         style={{
           margin: `0 auto`,
-          display: 'block',
           position: 'relative',
           maxWidth: rhythm(50),
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop: rhythm(10),
+          marginBottom: rhythm(10),
         }}
       >
-        <div style={{
+        <div className='navbar' style={{
           display: 'inline-block',
-          float: 'left',
-          marginTop: rhythm(10),
-          width: rhythm(10),
+          width: rhythm(12),
+          paddingLeft: rhythm(2),
           letterSpacing: '2px',
           position: 'fixed',
-          top: 0,
+          top: rhythm(10),
         }}>{navbar}</div>
 
-        <main style={{
+        <main className='main' style={{
           display: 'inline-block',
-          marginTop: rhythm(10),
           marginLeft: rhythm(10),
-          marginBottom: rhythm(10),
           width: rhythm(35),
         }}>{children}</main>
 
