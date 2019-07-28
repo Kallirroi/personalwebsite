@@ -8,26 +8,26 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let navbar
-
+    let activeColor = '#63D7BF'
     navbar = (
       <div>
-          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+          <div><Link activeStyle={{ color: activeColor}} style={{
             lineHeight: '20px',
             borderBottom: '0'
           }} to={`/`}> selected projects </Link></div>
-          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+          <div><Link activeStyle={{ color: activeColor }} style={{
             lineHeight: '20px',
             borderBottom: '0'
           }} to={`/research/`}> research </Link></div>
-          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+          <div><Link activeStyle={{ color: activeColor }} style={{
             lineHeight: '20px',
             borderBottom: '0'
           }} to={`/writing/`}> writing </Link></div>
-          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+          <div><Link activeStyle={{ color: activeColor }} style={{
             lineHeight: '20px',
             borderBottom: '0'
           }} to={`/misc/`}> misc </Link></div>
-          <div><Link activeStyle={{ color: '#00d3e2' }} style={{
+          <div><Link activeStyle={{ color: activeColor }} style={{
             lineHeight: '20px',
             borderBottom: '0'
           }} to={`/about/`}>about </Link></div>

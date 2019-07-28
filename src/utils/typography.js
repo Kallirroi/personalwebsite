@@ -18,7 +18,7 @@ const options = {
       },
       'a:hover': {
         // color: '#ebef00',
-        color: '#00d3e2',
+        color: '#63D7BF',
         // color: '#2441B7',
         // color: '#F22F37',
       },
