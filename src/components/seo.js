@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: site.siteMetadata.twitterImage,
+          content: 'content/assets/twitterImage.png',
         },
       ].concat(meta)}
     />
