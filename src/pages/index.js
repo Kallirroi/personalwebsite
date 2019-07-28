@@ -45,8 +45,8 @@ class BlogIndex extends React.Component {
 
                 <Link to={node.fields.slug}
                 style={{
-                  fontWeight: `200`,
-                  fontStyle: 'italic',
+                  fontWeight: `300`,
+                  fontStyle: 'normal',
                   display: 'block',
                   textAlign: 'left',
                   width: 'auto',

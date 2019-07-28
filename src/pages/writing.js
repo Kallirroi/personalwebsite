@@ -36,8 +36,8 @@ class Writing extends React.Component {
                 marginBottom: rhythm(2)
               }}>
                 <Link  style={{
-                  fontWeight: `200`,
-                  fontStyle: 'italic',
+                  fontWeight: `300`,
+                  fontStyle: 'normal',
                   display: 'block',
                   textAlign: 'left',
                   width: 'auto',
