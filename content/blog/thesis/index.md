@@ -1,5 +1,5 @@
 ---
-title: internet as an object
+title: internet as an object - Media Lab thesis
 date: "2015-05-06T23:46:37.121Z"
 description: For my graduate thesis at the MIT Media Lab, I designed and engineered a set of playful physical objects which function as nodes of a hyper-local network, with the goal of exploring the relationship between decentralization and design.
 index: 1
