@@ -2,7 +2,7 @@
 title: internet as a city
 date: "2015-05-06T23:46:37.121Z"
 description: If the Internet were a city, what would be its roads, buildings, and parks? We explored this question by holding a weird, collaborative, speculative, loud and most importantly really fun workshop called "Internet as a city" at the Decentralized Web Summit in San Franscisco (hosted by the Internet Archive) in the summer of 2018.
-index: 3
+index: 5
 tag: project
 imagePath: internetascity
 ---
