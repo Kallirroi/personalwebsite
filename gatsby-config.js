@@ -4,7 +4,7 @@ module.exports = {
     author: `Kalli Retzepi`,
     description: `Kalli's portfolio`,
     siteUrl: `https://kalli-retzepi.com/`,
-    twitterImage: `twitter.png`,
+    twitterImage: `twitterImage.png`,
     social: {
       twitter: `kallirroi`,
     },
