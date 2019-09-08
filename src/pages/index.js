@@ -16,7 +16,6 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Kalli Retzepi" />
-        <SEO image="twitterImage.png" />
 
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -74,7 +73,7 @@ class BlogIndex extends React.Component {
             )
           }
           return (
-            <div></div>
+            <div key={node.fields.slug}></div>
           )
         })}
       </Layout>
