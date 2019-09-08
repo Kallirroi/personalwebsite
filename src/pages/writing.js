@@ -32,7 +32,9 @@ class Writing extends React.Component {
           const tag = node.frontmatter.tag
           if (tag === 'writing') {
             return (
-              <div style={{
+              <div
+              key={node.fields.slug}
+              style={{
                 marginBottom: rhythm(2)
               }}>
                 <Link  style={{
@@ -55,7 +57,7 @@ class Writing extends React.Component {
             )
           }
           return (
-            <div> </div>
+            <div key={node.fields.slug}> </div>
           )
 
         })}

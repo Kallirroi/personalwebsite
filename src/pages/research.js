@@ -25,12 +25,15 @@ class Research extends React.Component {
         <p style={{
           marginBottom: rhythm(5)
         }}>You can follow my progress on personal research projects below. All of what you see is self initiated, and I am aware it might come across as underdeveloped. I am constantly coming back and iterating.</p>
+
         {posts.map( ({node}) => {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
           if (tag === 'research') {
             return (
-              <div style={{
+              <div
+              key={node.fields.slug}
+              style={{
                 marginBottom: rhythm(2)
               }}>
                 <Link style={{
@@ -55,7 +58,7 @@ class Research extends React.Component {
             )
           }
           return (
-            <div> </div>
+            <div key={node.fields.slug}> </div>
           )
 
         })}
