@@ -14,7 +14,7 @@ class Layout extends React.Component {
           <div><Link activeStyle={{ color: activeColor}} style={{
             lineHeight: '20px',
             borderBottom: '0'
-          }} to={`/`}> selected projects </Link></div>
+          }} to={`/`}> projects </Link></div>
           <div><Link activeStyle={{ color: activeColor }} style={{
             lineHeight: '20px',
             borderBottom: '0'
@@ -47,8 +47,8 @@ class Layout extends React.Component {
       >
         <div className='navbar' style={{
           display: 'inline-block',
-          width: rhythm(12),
-          paddingLeft: rhythm(2),
+          width: rhythm(8),
+          paddingLeft: rhythm(3),
           letterSpacing: '2px',
           position: 'fixed',
           top: rhythm(10),
@@ -56,7 +56,7 @@ class Layout extends React.Component {
 
         <main className='main' style={{
           display: 'inline-block',
-          marginLeft: rhythm(10),
+          marginLeft: rhythm(8),
           width: rhythm(35),
         }}>{children}</main>
 
