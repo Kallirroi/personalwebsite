@@ -7,4 +7,13 @@ tag: misc
 ---
 
 
-Currently working on updating this page.
+I started wheel throwing last year, and it has been such a joy!
+
+
+![altcaption](1.jpg)
+
+![altcaption](2.jpg)
+
+![altcaption](3.jpg)
+
+![altcaption](5.jpg)
