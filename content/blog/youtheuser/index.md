@@ -6,7 +6,10 @@ index: 5
 tag: research
 ---
 
-Research project exploring how many times the word 'you' or variations of it is mentioned in Big Tech Keynote events.
+Research project exploring how many times the word 'you' or variations of it is mentioned in Big Tech Keynote events. I also made a project-specific website [here](https://youtheusers.netlify.com/).
+
+![altcaption](youtheuser.gif)
+
 
 Apple 2018
 ![altcaption](apple2018.png)
