@@ -2,7 +2,7 @@
 title: the benches - Media Lab class
 date: "2015-05-06T23:46:37.121Z"
 description: An interactive bench that plays audio when you sit on it (Media Lab class project).
-index: 2
+index: 3
 tag: misc
 ---
 
