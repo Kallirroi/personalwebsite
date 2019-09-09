@@ -6,4 +6,11 @@ index: 3
 tag: research
 ---
 
-Currently working on updating this page.
+A collection of images I created exploring tensions such as the informational overload, standardization of interfaces and reconceptualizing the Internet as a dimensional space.
+
+
+![altcaption](1.jpg)
+
+![altcaption](2.png)
+
+![altcaption](3.jpg)

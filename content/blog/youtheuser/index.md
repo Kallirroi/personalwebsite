@@ -6,4 +6,11 @@ index: 5
 tag: research
 ---
 
-Currently working on updating this page.
+Research project exploring how many times the word 'you' or variations of it is mentioned in Big Tech Keynote events.
+
+Apple 2018
+![altcaption](apple2018.png)
+
+
+Google 2018
+![altcaption](Google2018.png)
