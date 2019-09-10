@@ -30,7 +30,7 @@ class About extends React.Component {
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
-          <li><a href="mailto:kalli@mit.edu" target="_blank">email</a></li>
+          <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
           <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
           <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
           <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
