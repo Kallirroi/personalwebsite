@@ -38,15 +38,17 @@ class About extends React.Component {
 
           <h4 style={{
             marginTop: rhythm(1),
-          }}>workshops / talks / abstracts</h4>
+          }}>workshops / talks / exhibits</h4>
           <ul style={{
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
-          <li>"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, forthcoming 2019</li>
-          <li>Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
-          <li>“Sense objects”, Ginko Bioworks <a href="https://extrapolationfactory.com/Sense-Objects">workshop</a>, 2018</li>
-          <li>“Internet as a city”, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
+          <li>__"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, 2019</li>
+          <li>__"<a href="https://sap-thesis.mit.edu/thesis/kalli-retzepi">Internet as an object</a>" part of the MIT School of Architecture and Planning <a href="https://sap-thesis.mit.edu/">Thesis Show</a>, 2019</li>
+          <li>__"An analog interface in a digital world", personal photography exhibit at the MIT ACT February School, 2019</li>
+          <li>__Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
+          <li>__“Sense objects”, Ginko Bioworks <a href="https://extrapolationfactory.com/Sense-Objects">workshop</a>, 2018</li>
+          <li>__“Internet as a city”, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
           </ul>
 
 
