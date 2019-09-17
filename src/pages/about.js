@@ -43,6 +43,7 @@ class About extends React.Component {
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
+          <li>__"Internet as an object",  <a href="https://radicalnetworks.org/participants/kalli-retzepi/">Talk at RADICAL NETWORKS</a>, 2019</li>
           <li>__"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, 2019</li>
           <li>__"<a href="https://sap-thesis.mit.edu/thesis/kalli-retzepi">Internet as an object</a>" part of the MIT School of Architecture and Planning <a href="https://sap-thesis.mit.edu/">Thesis Show</a>, 2019</li>
           <li>__"An analog interface in a digital world", personal photography exhibit at the MIT ACT February School, 2019</li>
