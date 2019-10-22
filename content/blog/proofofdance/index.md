@@ -1,7 +1,7 @@
 ---
 title: proof of dance - Media Lab project
 date: "2015-05-06T23:46:37.121Z"
-description: A very Media Lab project that reimagines the popular Dance Dance Revolution game in the age of blockchain. How much (fake) Ethereum can you mine by doing the dance moves right? It was quite the hit all times we set it up at the Lab.
+description: How much (fake) Ethereum can you mine by playing Dance Dance revolution?
 index: 20
 tag: misc
 imagePath: proofofdance

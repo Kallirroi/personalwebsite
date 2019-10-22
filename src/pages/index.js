@@ -21,28 +21,26 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           const tag = node.frontmatter.tag
 
-          const imageName = `/landingpage/${node.frontmatter.imagePath}.gif`
+          const imageName = node.frontmatter.imagePath === null ? '/landingpage/filler.gif' : `/landingpage/${node.frontmatter.imagePath}.gif`
+
           return (
             <div
             key={node.fields.slug}
             style={{
               // border: '1px solid',
-              maxWidth: '18vw',
-              maxHeight: '60vh',
-              alignSelf: 'stretch',
-              padding: rhythm(1),
-              overflow: 'scroll',
-              margin: '0 auto'
+              maxWidth: '15vw',
+              margin: '0 auto',
+              paddingRight: rhythm(1),
+              paddingLeft: rhythm(1),
+              paddingBottom: rhythm(1),
             }}>
               <Link to={node.fields.slug}
               style={{
-                fontWeight: `300`,
                 fontStyle: 'normal',
-                display: 'block',
+                display: 'inline-block',
                 textAlign: 'left',
                 width: 'auto',
-                marginBottom: rhythm(0.5),
-                marginTop: rhythm(0.5),
+                marginBottom: rhythm(1),
                 border: 'none',
                 textDecoration: 'none',
                 letterSpacing: '2px',
@@ -53,7 +51,7 @@ class BlogIndex extends React.Component {
               <p style={{
                 display: 'block',
                 textAlign: 'left',
-                width: 'auto',
+                height: '7vh',
               }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -64,11 +62,16 @@ class BlogIndex extends React.Component {
                 alt=""
                 style={{
                   margin: '0 auto',
-                  display: 'block',
-                  width: 'auto',
+                  width: '100%',
+                  display: 'inline-block'
                 }}
               />
-              <small style={{ fontStyle: 'italic'}}> {tag} </small>
+              <small style={{
+                fontStyle: 'normal',
+                display: 'block',
+                position: 'relative',
+                color: '#aaa',
+              }}> {} </small>
             </div>
             )
           return (

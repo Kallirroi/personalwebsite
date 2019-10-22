@@ -1,7 +1,7 @@
 ---
 title: internetic landscapes
 date: "2015-05-06T23:46:37.121Z"
-description: A collection of images I created exploring tensions such as the informational overload, standardization of interfaces and reconceptualizing the Internet as a dimensional space.
+description: Web interfaces as dimensional spaces.
 index: 3
 tag: research
 imagePath: interneticlandscapes

@@ -1,7 +1,7 @@
 ---
 title: mTurk stories
 date: "2015-05-06T23:46:37.121Z"
-description: I asked Amazon Mechanical Turk users to describe how they imagine Facebook, Apple and Amazon to look like if they were real people.
+description: Amazon mTurk users describe how Facebook, Apple and Amazon look like if they were real people.
 index: 9
 tag: research
 ---

@@ -8,8 +8,8 @@ const options = {
     return {
       'h1,h2,h3,h4,h5,h6, div, p, a, span': {
         fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
-        fontSize: '14px',
-        lineHeight: '18px',
+        fontSize: '13px',
+        lineHeight: '16px',
       },
       'a': {
         textDecoration: 'none',
@@ -18,7 +18,7 @@ const options = {
       },
       'a:hover': {
         // color: '#ebef00',
-        color: '#63D7BF',
+        color: '#ff7070',
         // color: '#2441B7',
         // color: '#F22F37',
       },
@@ -26,6 +26,13 @@ const options = {
         // listStyleType: 'none',
         padding: 0,
         margin: 0,
+      },
+      '.layoutChange': {
+        cursor: 'pointer',
+      },
+      '.layoutChange:hover': {
+        color: '#ff7070',
+        cursor: 'pointer'
       },
       '@media screen and (max-width: 760px)': {
         '.navbar': {
