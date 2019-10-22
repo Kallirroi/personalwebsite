@@ -19,7 +19,7 @@ class About extends React.Component {
         <SEO title="About" />
         <div style={{
                 margin: `0 auto`,
-                width: `70%`,
+                width: `30vw`,
               }}>
           <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. CV and portfolio available upon request.</p>
 

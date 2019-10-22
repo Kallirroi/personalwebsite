@@ -2,7 +2,7 @@
 title: Alan Kay's advice
 date: "2015-05-06T23:46:37.121Z"
 description: My thoughts after watching a guest lecture Alan Kay gave to Paul Pangaro’s students in Detroit.
-index: 7
+index: 25
 tag: writing
 ---
 

@@ -20,10 +20,8 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <div style={{
-            margin: `0 auto`,
-            width: `70%`,
-            position: 'relative',
-            display: 'block',
+          maxWidth: '30vw',
+          margin: 'auto'
           }} dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
       </div>

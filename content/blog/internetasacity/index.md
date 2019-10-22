@@ -2,7 +2,7 @@
 title: internet as a city
 date: "2015-05-06T23:46:37.121Z"
 description: If the Internet were a city, what would be its roads, buildings, and parks?
-index: 2
+index: 3
 tag: project
 imagePath: internetascity
 ---

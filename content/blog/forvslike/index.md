@@ -2,7 +2,7 @@
 title: for vs like
 date: "2015-05-06T23:46:37.121Z"
 description: What does it mean to create technologies (and I am always thinking in terms of interfaces) with respect to how our brains work?
-index: 2
+index: 24
 tag: writing
 ---
 

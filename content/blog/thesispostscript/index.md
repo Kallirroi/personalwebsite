@@ -2,7 +2,7 @@
 title: thesis postscript
 date: "2015-05-06T23:46:37.121Z"
 description: Some thoughts about design and decentralization, inspired by my thesis at the Media Lab.
-index: 1
+index: 2
 tag: writing
 ---
 

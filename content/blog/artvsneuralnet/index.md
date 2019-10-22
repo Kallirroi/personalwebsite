@@ -2,7 +2,7 @@
 title: art vs the neural net
 date: "2015-05-06T23:46:37.121Z"
 description: My (very cliché) ideological struggle with the concept of "art" in the context of technology.
-index: 5
+index: 27
 tag: writing
 ---
 

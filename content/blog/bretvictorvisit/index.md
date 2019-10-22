@@ -2,7 +2,7 @@
 title: Bret Victor talk at the Media Lab
 date: "2015-05-06T23:46:37.121Z"
 description: I invited and hosted a talk by Bret Victor at the Media Lab in early 2018. Here are my thoughts about it.
-index: 4
+index: 24
 tag: writing
 ---
 

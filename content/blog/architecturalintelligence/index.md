@@ -2,7 +2,7 @@
 title: Architectural Intelligence, by Molly Wright Steenson
 date: "2015-05-06T23:46:37.121Z"
 description: I read a great book (you should read it too!) and here are my thoughts about it.
-index: 6
+index: 26
 tag: writing
 ---
 

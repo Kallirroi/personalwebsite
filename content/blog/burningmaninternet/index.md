@@ -2,7 +2,7 @@
 title: a burning man and the Internet
 date: "2015-05-06T23:46:37.121Z"
 description: Thoughts about Fred Turner's article on LOGIC mag.
-index: 3
+index: 23
 tag: writing
 ---
 

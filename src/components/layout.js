@@ -11,53 +11,40 @@ class Layout extends React.Component {
     let activeColor = '#63D7BF'
     navbar = (
       <div>
-          <div><Link activeStyle={{ color: activeColor}} style={{
-            lineHeight: '20px',
-            borderBottom: '0'
-          }} to={`/`}> projects </Link></div>
-          <div><Link activeStyle={{ color: activeColor }} style={{
-            lineHeight: '20px',
-            borderBottom: '0'
-          }} to={`/research/`}> research </Link></div>
-          <div><Link activeStyle={{ color: activeColor }} style={{
-            lineHeight: '20px',
-            borderBottom: '0'
-          }} to={`/writing/`}> writing </Link></div>
-          <div><Link activeStyle={{ color: activeColor }} style={{
-            lineHeight: '20px',
-            borderBottom: '0'
-          }} to={`/misc/`}> misc </Link></div>
-          <div><Link activeStyle={{ color: activeColor }} style={{
-            lineHeight: '20px',
-            borderBottom: '0'
-          }} to={`/about/`}>about </Link></div>
+          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/`}> projects </Link>
+          {/*<Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/research/`}> research </Link>
+          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/writing/`}> writing </Link>
+          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/misc/`}> misc </Link> */}
+          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/about/`}>about </Link>
       </div>
     )
     return (
       <div className='container'
         style={{
           margin: `0 auto`,
-          position: 'relative',
-          maxWidth: rhythm(50),
-          display: 'flex',
-          flexDirection: 'row',
-          marginTop: rhythm(10),
-          marginBottom: rhythm(10),
+          maxWidth: rhythm(80),
+          paddingTop: rhythm(3),
+          paddingBottom: rhythm(3),
+          paddingLeft: rhythm(1),
+          paddingRight: rhythm(1),
         }}
       >
         <div className='navbar' style={{
-          display: 'inline-block',
-          width: rhythm(8),
-          paddingLeft: rhythm(3),
-          letterSpacing: '2px',
-          position: 'fixed',
-          top: rhythm(10),
+          // border: '1px solid',
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'nowrap',
+          marginBottom: rhythm(2)
         }}>{navbar}</div>
 
         <main className='main' style={{
-          display: 'inline-block',
-          marginLeft: rhythm(8),
-          width: rhythm(35),
+          // border: '1px solid',
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          overflow: 'scroll',
+          justifyContent: 'flex-start',
+          alignItems: 'flex-start'
         }}>{children}</main>
 
       </div>
