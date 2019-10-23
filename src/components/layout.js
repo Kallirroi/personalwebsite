@@ -23,7 +23,7 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let navbar
-    let activeColor = '#ff7070'
+    let activeColor = '#80A2BC'
     let wrapStatus = !this.state.weirdLayout ? 'wrap' : 'nowrap'
     let wrapText =  !this.state.weirdLayout ? '⚫️' : '🤔'
 

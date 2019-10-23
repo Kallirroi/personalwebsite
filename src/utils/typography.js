@@ -16,10 +16,7 @@ const options = {
         color: '#000',
       },
       'a:hover': {
-        // color: '#ebef00',
-        color: '#ff7070',
-        // color: '#2441B7',
-        // color: '#F22F37',
+        color: '#80A2BC',
       },
       'ul, li': {
         // listStyleType: 'none',
