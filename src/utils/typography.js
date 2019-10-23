@@ -1,5 +1,4 @@
 import Typography from 'typography'
-import theme from '../../theme'
 
 const options = {
   headerFontFamily: [`Standard`, `sans-serif`],
@@ -26,6 +25,11 @@ const options = {
         // listStyleType: 'none',
         padding: 0,
         margin: 0,
+        fontSize: '13px',
+        lineHeight: '16px',
+      },
+      '.post': {
+        maxWidth: '15vw',
       },
       '.layoutChange': {
         cursor: 'pointer',
@@ -35,17 +39,29 @@ const options = {
         cursor: 'pointer'
       },
       '@media screen and (max-width: 760px)': {
-        '.navbar': {
-          // background: 'cyan',
-          // letterSpacing: '2px',
-          // position: 'absolute',
-          // marginTop: 0,
-          // width: '100vw',
-          // top: 0,
+        'h1,h2,h3,h4,h5,h6, div, p, a, span': {
+          fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
+          fontSize: '9px',
+          lineHeight: '11px',
         },
-        '.main': {
-          // background: '#ff0',
+        'ul, li': {
+          // listStyleType: 'none',
+          padding: 0,
+          margin: 0,
+          fontSize: '9px',
+          lineHeight: '13px',
         },
+        'main': {
+          flexDirection: 'row',
+          flexWrap: 'nowrap',
+        },
+        'main.main > .post': {
+          maxWidth: '50vw',
+          // border: '1px solid'
+        },
+        'main.main > .postContent': {
+          maxWidth: '60vw',
+        }
       },
     }
   },

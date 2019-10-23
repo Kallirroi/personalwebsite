@@ -17,7 +17,9 @@ class About extends React.Component {
       title={siteTitle}
       >
         <SEO title="About" />
-        <div style={{
+        <div
+        className='postContent'
+        style={{
                 margin: `0 auto`,
                 width: `30vw`,
               }}>

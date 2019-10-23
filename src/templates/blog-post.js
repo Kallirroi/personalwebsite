@@ -19,7 +19,9 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <div style={{
+        <div
+        className='postContent'
+        style={{
           maxWidth: '30vw',
           margin: '0 auto'
           }} dangerouslySetInnerHTML={{ __html: post.html }} />

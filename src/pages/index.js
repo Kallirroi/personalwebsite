@@ -25,10 +25,10 @@ class BlogIndex extends React.Component {
 
           return (
             <div
+            className='post'
             key={node.fields.slug}
             style={{
               // border: '1px solid',
-              maxWidth: '15vw',
               margin: '0 auto',
               paddingRight: rhythm(1),
               paddingLeft: rhythm(1),
