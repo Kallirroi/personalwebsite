@@ -23,7 +23,7 @@ const options = {
         padding: 0,
         margin: 0,
         fontSize: '13px',
-        lineHeight: '16px',
+        lineHeight: '18px',
       },
       '.post': {
         maxWidth: '15vw',
@@ -46,7 +46,7 @@ const options = {
           padding: 0,
           margin: 0,
           fontSize: '9px',
-          lineHeight: '13px',
+          lineHeight: '14px',
         },
         'main': {
           flexDirection: 'row',
