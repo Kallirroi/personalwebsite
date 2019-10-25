@@ -9,11 +9,13 @@ const options = {
         fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
         fontSize: '13px',
         lineHeight: '16px',
+        cursor: 'url(http://icons.iconarchive.com/icons/iconfactory/copland-1/32/Mac-Classic-icon.png), auto'
       },
       'a': {
         textDecoration: 'none',
         borderBottom: '0.5px solid',
         color: '#000',
+        cursor: 'pointer'
       },
       'a:hover': {
         color: '#80A2BC',
