@@ -40,7 +40,7 @@ class BlogIndex extends React.Component {
                 display: 'inline-block',
                 textAlign: 'left',
                 width: 'auto',
-                marginBottom: rhythm(1),
+                marginBottom: rhythm(0.3),
                 border: 'none',
                 textDecoration: 'none',
                 letterSpacing: '2px',
@@ -51,7 +51,8 @@ class BlogIndex extends React.Component {
               <p style={{
                 display: 'block',
                 textAlign: 'left',
-                height: '7vh',
+                height: 'auto',
+                marginBottom: rhythm(0.3),
               }}
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
