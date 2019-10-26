@@ -22,8 +22,8 @@ class BlogPostTemplate extends React.Component {
         <div
         className='postContent'
         style={{
-          maxWidth: '30vw',
-          margin: '0 auto'
+          width: '32vw',
+          margin: '0 0 0 3vw'
           }} dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
       </div>

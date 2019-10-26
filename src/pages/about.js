@@ -20,8 +20,9 @@ class About extends React.Component {
         <div
         className='postContent'
         style={{
-                margin: `0 auto`,
-                width: `30vw`,
+                // margin: `0 auto`,
+                margin: '0 0 0 3vw',
+                width: `32vw`,
               }}>
           <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. CV and portfolio available upon request.</p>
 
