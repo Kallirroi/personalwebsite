@@ -8,7 +8,7 @@ imagePath: clickhere
 ---
 
 
-What does the browser window look like if we highlight the attention-hungry elements? 
+What does the browser window look like if we highlight the attention-hungry elements?
 
 ![altcaption](google.png)
 
@@ -23,5 +23,11 @@ What does the browser window look like if we highlight the attention-hungry elem
 &nbsp
 
 ![altcaption](twitter.png)
+
+&nbsp
+
+![altcaption](netflix1.png)
+
+![altcaption](netflix2.png)
 
 Copyright Kalli Retzepi 2019
