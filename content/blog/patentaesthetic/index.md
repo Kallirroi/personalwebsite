@@ -17,7 +17,7 @@ In this case "mouse" and "computer":
 
 ![altcaption](9.png)
 
-![altcaption](10.png)
+![altcaption](11.png)
 
 ![altcaption](1.png)
 
