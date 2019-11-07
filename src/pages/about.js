@@ -46,6 +46,8 @@ class About extends React.Component {
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
+          <li>__"clickHere",  presentation for <a href="https://www.eventbrite.com/e/code-kitchen-lecture-series-kate-hollenbach-kalli-retzepi-tickets-78128479385">CODE KITCHEN</a> lecture series at Parsons AMT Design + Technology, 2019</li>
+          <li>__Invited reviewer for <a href="https://www.are.na/lucy-siyao-liu/cd-workshop-staging-practice-with-props">Staging Practice</a> workshop by Matthew Bohne and Lucy Liu at the New School, 2019</li>
           <li>__"Internet as an object",  <a href="https://radicalnetworks.org/participants/kalli-retzepi/">Talk at RADICAL NETWORKS</a>, 2019</li>
           <li>__"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, 2019</li>
           <li>__"<a href="https://sap-thesis.mit.edu/thesis/kalli-retzepi">Internet as an object</a>" part of the MIT School of Architecture and Planning <a href="https://sap-thesis.mit.edu/">Thesis Show</a>, 2019</li>
