@@ -1,5 +1,4 @@
-import Typography from 'typography'
-
+import Typography from 'typography';
 const options = {
   headerFontFamily: [`Standard`, `sans-serif`],
   bodyFontFamily: [`Standard`, `sans-serif`],
@@ -18,20 +17,20 @@ const options = {
         cursor: 'pointer'
       },
       'a:hover': {
-        color: '#80A2BC',
+        color: '#80A2BC'
       },
       'ul, li': {
         // listStyleType: 'none',
         padding: 0,
         margin: 0,
         fontSize: '13px',
-        lineHeight: '18px',
+        lineHeight: '18px'
       },
       '.post': {
-        maxWidth: '15vw',
+        maxWidth: '15vw'
       },
       '.layoutChange': {
-        cursor: 'pointer',
+        cursor: 'pointer'
       },
       '.layoutChange:hover': {
         color: '#ff7070',
@@ -41,38 +40,36 @@ const options = {
         'h1,h2,h3,h4,h5,h6, div, p, a, span': {
           fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
           fontSize: '9px',
-          lineHeight: '11px',
+          lineHeight: '11px'
         },
         'ul, li': {
           // listStyleType: 'none',
           padding: 0,
           margin: 0,
           fontSize: '9px',
-          lineHeight: '14px',
+          lineHeight: '14px'
         },
         'main': {
           flexDirection: 'row',
-          flexWrap: 'nowrap',
+          flexWrap: 'nowrap'
         },
         'main.main > .post': {
-          maxWidth: '50vw',
-          // border: '1px solid'
+          maxWidth: '50vw' // border: '1px solid'
+
         },
         'main.main > .postContent': {
-          maxWidth: '60vw',
+          maxWidth: '60vw'
         }
-      },
-    }
-  },
-}
+      }
+    };
+  }
+};
+const typography = new Typography(options); // Hot reload typography in development.
 
-const typography = new Typography(options)
-
-// Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
-  typography.injectStyles()
+  typography.injectStyles();
 }
 
-export default typography
-export const rhythm = typography.rhythm
-export const scale = typography.scale
+export default typography;
+export const rhythm = typography.rhythm;
+export const scale = typography.scale;

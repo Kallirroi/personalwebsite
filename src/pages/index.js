@@ -8,13 +8,13 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    render() {
+        const { data } = this.props
+        const siteTitle = data.site.siteMetadata.title
+        const posts = data.allMarkdownRemark.edges
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
+        return (
+            <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Kalli Retzepi" />
 
         {posts.map( ({node}) => {
@@ -35,19 +35,18 @@ class BlogIndex extends React.Component {
               paddingBottom: rhythm(1),
             }}>
               <Link to={node.fields.slug}
-              style={{
-                fontStyle: 'normal',
-                display: 'inline-block',
-                textAlign: 'left',
-                width: 'auto',
-                marginBottom: rhythm(0.3),
-                border: 'none',
-                textDecoration: 'none',
-                letterSpacing: '2px',
-              }}>
+                style={{
+                  fontStyle: 'normal',
+                  display: 'inline-block',
+                  textAlign: 'left',
+                  width: 'auto',
+                  marginBottom: rhythm(0.3),
+                  border: 'none',
+                  textDecoration: 'none',
+                  letterSpacing: '2px',
+                }}>
                 {title}
               </Link>
-
               <p style={{
                 display: 'block',
                 textAlign: 'left',
@@ -80,13 +79,13 @@ class BlogIndex extends React.Component {
           )
         })}
       </Layout>
-    )
-  }
+        )
+    }
 }
 
 export default BlogIndex
 
-export const pageQuery = graphql`
+export const pageQuery = graphql `
   query {
     site {
       siteMetadata {
