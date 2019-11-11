@@ -22,46 +22,38 @@ class BlogIndex extends React.Component {
         style={{
                 // margin: `0 auto`,
                 margin: '0 0 0 3vw',
-                width: `32vw`,
+                width: `35vw`,
               }}>
-          <p>Kalli Retzepi is a graduate of the MIT Media Lab. She uses technology, design and images in order to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. CV and portfolio available upon request.</p>
+
+          <p style={{
+            marginBottom: rhythm(1),
+          }}>I use code, images and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and most recently from the MIT Media Lab. I am currently based in Brooklyn, NY. </p>
+
+          <p>CV available upon request.</p>
 
           <h4 style={{
-            marginTop: rhythm(1),
-          }}>contact</h4>
+            marginTop: rhythm(2),
+          }}>talks / workshops / exhibits </h4>
           <ul style={{
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
-            <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
-            <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
-            <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
-            <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
-          </ul>
-
-          <h4 style={{
-            marginTop: rhythm(1),
-          }}>workshops / talks / exhibits</h4>
-          <ul style={{
-                  listStyleType: 'none',
-                  lineHeight: '22px'
-                }}>
-            <li>__"Patent aesthetic" featured at zine for the first <a href="https://www.computermouseconference.net/">Computer Mouse Conference</a> at NYU ITP, 2019</li>            
-            <li>__"clickHere",  presentation for <a href="https://www.eventbrite.com/e/code-kitchen-lecture-series-kate-hollenbach-kalli-retzepi-tickets-78128479385">CODE KITCHEN</a> lecture series at Parsons AMT Design + Technology, 2019</li>
-            <li>__Invited reviewer for <a href="https://www.are.na/lucy-siyao-liu/cd-workshop-staging-practice-with-props">Staging Practice</a> workshop by Matthew Bohne and Lucy Liu at the New School, 2019</li>
-            <li>__"Internet as an object",  <a href="https://radicalnetworks.org/participants/kalli-retzepi/">Talk at RADICAL NETWORKS</a>, 2019</li>
-            <li>__"You the users",  <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, 2019</li>
-            <li>__"<a href="https://sap-thesis.mit.edu/thesis/kalli-retzepi">Internet as an object</a>" part of the MIT School of Architecture and Planning <a href="https://sap-thesis.mit.edu/">Thesis Show</a>, 2019</li>
-            <li>__"An analog interface in a digital world", personal photography exhibit at the MIT ACT February School, 2019</li>
-            <li>__Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
-            <li>__“Sense objects”, Ginko Bioworks <a href="https://extrapolationfactory.com/Sense-Objects">workshop</a>, 2018</li>
-            <li>__“Internet as a city”, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
+            <li><a href="https://kalli-retzepi.com/patentaesthetic/">Patent aesthetic</a> featured at zine for the first <a href="https://www.computermouseconference.net/">Computer Mouse Conference</a> at NYU ITP, 2019</li>            
+            <li><a href="https://kalli-retzepi.com/clickhere/">clickHere</a>,  presentation for <a href="https://www.eventbrite.com/e/code-kitchen-lecture-series-kate-hollenbach-kalli-retzepi-tickets-78128479385">CODE KITCHEN</a> at Parsons AMT Design + Technology, 2019</li>
+            <li>Invited reviewer for <a href="https://www.are.na/lucy-siyao-liu/cd-workshop-staging-practice-with-props">Staging Practice</a> by Matthew Bohne and Lucy Liu at the New School, 2019</li>
+            <li><a href="https://kalli-retzepi.com/thesis/">Internet as an object</a>,  presented at <a href="https://radicalnetworks.org/participants/kalli-retzepi/"> RADICAL NETWORKS</a>, 2019</li>
+            <li><a href="https://kalli-retzepi.com/youtheuser/">You the user</a>, essay for <a href="https://interfacecritique.net/journal-3">Interface Critique Journal 02</a>, upcoming in 2020</li>
+            <li><a href="https://sap-thesis.mit.edu/thesis/kalli-retzepi">Internet as an object</a> part of the MIT School of Architecture and Planning <a href="https://sap-thesis.mit.edu/">Thesis Show</a>, 2019</li>
+            <li>"An analog interface in a digital world", exhibit at the MIT ACT February School, 2019</li>
+            <li>Panelist, <a href="http://www.gredits.org/interfacepolitics/en/">Interface Politics</a> Conference, 2018</li>
+            <li>Assistant for <a href="https://extrapolationfactory.com/Sense-Objects">Sense objects</a> workshop by the Extrapolation Factory at Ginko Bioworks, 2018</li>
+            <li><a href="https://internetas.city/">Internet as a city</a>, workshop at <a href="https://decentralizedweb.net/">Decentralized Web Summit</a>, 2018</li>
           </ul>
 
 
           <h4 style={{
-            marginTop: rhythm(1),
-          }}>online features </h4>
+            marginTop: rhythm(2),
+          }}>online </h4>
           <ul style={{
                   listStyleType: 'none',
                   lineHeight: '22px'
@@ -74,6 +66,21 @@ class BlogIndex extends React.Component {
             <li><a href="https://velveteyes.net/features/kalli-retzepi/">VelvetEyes</a> feature</li>
             <li><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/">C41</a> Magazine feature</li>
           </ul>
+
+
+          <h4 style={{
+            marginTop: rhythm(2),
+          }}>contact</h4>
+          <ul style={{
+                  listStyleType: 'none',
+                  lineHeight: '22px'
+                }}>
+            <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
+            <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
+            <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
+            <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
+          </ul>
+
         </div>
       </Layout>
     )
