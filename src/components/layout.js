@@ -23,8 +23,8 @@ class Layout extends React.Component {
       <div style={{
         margin: '0 auto',
       }}>
+        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/`}> about </Link>
         <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/projects/`}>projects </Link>
-        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/about/`}> about </Link>
       </div>
     )
     return (
