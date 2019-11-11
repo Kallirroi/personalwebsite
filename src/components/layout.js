@@ -13,30 +13,18 @@ class Layout extends React.Component {
     }
   }
 
-  handleClick = () => {
-      this.setState(prevState => ({
-        weirdLayout: !prevState.weirdLayout
-      }));
-    }
-
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let navbar
     let activeColor = '#80A2BC'
-    let wrapStatus = !this.state.weirdLayout ? 'wrap' : 'nowrap'
-    let wrapText =  !this.state.weirdLayout ? '⚫️' : '🤔'
 
     navbar = (
       <div style={{
         margin: '0 auto',
       }}>
-          <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/`}> projects </Link>
-          {/*<Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/research/`}> research </Link>
-          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/writing/`}> writing </Link>
-          <Link activeStyle={{ color: activeColor }} style={{margin: rhythm(1)}} to={`/misc/`}> misc </Link> */}
-          <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/about/`}>about </Link>
-          <span  className={'layoutChange'} onClick={this.handleClick} style={{margin: rhythm(1), borderBottom: '0', display: 'none'}} > {wrapText} </span>
+        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/projects/`}>projects </Link>
+        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/about/`}> about </Link>
       </div>
     )
     return (
@@ -60,7 +48,7 @@ class Layout extends React.Component {
           // border: '1px solid',
           display: 'flex',
           flexDirection: 'row',
-          flexWrap: wrapStatus,
+          flexWrap: 'wrap',
           justifyItems: 'flex-end',
           alignItems: 'stretch',
           alignContent: 'baseline',
