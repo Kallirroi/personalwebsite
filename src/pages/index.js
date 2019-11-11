@@ -27,9 +27,9 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I use code, images and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and most recently from the MIT Media Lab. I am currently based in Brooklyn, NY. </p>
+          }}>I use code, images and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and most recently from the MIT Media Lab.</p>
 
-          <p>CV available upon request.</p>
+          <p>I am currently working as a freelancer out of Brooklyn. Feel free to reach out about work inquiries.</p>
 
           <h4 style={{
             marginTop: rhythm(2),
