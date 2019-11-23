@@ -36,6 +36,9 @@ const options = {
         color: '#ff7070',
         cursor: 'pointer'
       },
+      'main.main > .postContent': {
+          maxWidth: '35vw'
+      },
       '@media screen and (max-width: 760px)': {
         'h1,h2,h3,h4,h5,h6, div, p, a, span': {
           fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
@@ -56,9 +59,9 @@ const options = {
         'main.main > .post': {
           maxWidth: '50vw' // border: '1px solid'
 
-        },
+        },        
         'main.main > .postContent': {
-          maxWidth: '60vw'
+          maxWidth: '90vw'
         }
       }
     };

@@ -22,7 +22,6 @@ class BlogIndex extends React.Component {
         style={{
                 // margin: `0 auto`,
                 margin: '0 0 0 3vw',
-                width: `35vw`,
               }}>
 
           <p style={{
