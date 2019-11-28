@@ -7,23 +7,12 @@ tag: research
 imagePath: patentaesthetic
 ---
 
-In this case "mouse" and "computer":
+A lot of worldwide patent filings are [https://patents.google.com/](available) to the public domain (by Google, of course). I was always into this very particular aesthetic of mechanical drawings, so I have been digging in there in search for interesting narratives about the history of computation and the Web. I recently created a series of images for the Computer Mouse Conference held at NYU ITP program. 
 
-![altcaption](6.png)
+![print zine](zine.png)
 
-![altcaption](7.png)
+![grid](grid.png)
 
-![altcaption](8.png)
+![poster](8.png)
 
-![altcaption](9.png)
-
-![altcaption](11.png)
-
-![altcaption](1.png)
-
-![altcaption](2.png)
-
-![altcaption](3.png)
-
-![altcaption](5.png)
-
+![poster](9.png)
