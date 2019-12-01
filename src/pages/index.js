@@ -26,9 +26,15 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I use code, images and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and I am a recent alum of the MIT Media Lab. I know my path sounds meandering, but what can I say, I guess I enjoy learning.</p>
+          }}>I use code, design and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and I am a recent alum of the MIT Media Lab. During my time at the Lab I prototyped on a variety of software and hardware projects centered around questions of interfaces, decentralization and social networks.</p>
 
-          <p>I am currently working as a web design and dev freelancer out of Brooklyn, NY. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
+          <p style={{
+            marginBottom: rhythm(1),
+          }}>In the past I have worked as an interaction designer for Interactive Things, a Zurich-based studio that specializes in all sorts of web design and development as well as data visualization. Before that I helped build tools for medical imaging researchers and radiologists in training at MGH and Harvard Medical School, as well as develop an online learning platform on behalf of Harvard School of Engineering.</p>  
+
+          <p style={{
+            marginBottom: rhythm(1),
+          }}>I am currently working as a web design and dev freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
 
           <h4 style={{
             marginTop: rhythm(2),
@@ -38,7 +44,7 @@ class BlogIndex extends React.Component {
                   lineHeight: '22px'
                 }}>
             <li><a href="https://kalli-retzepi.com/PROPS/" target="_blank">PROPS</a></li>
-            <li><a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">The road to school</a></li>
+            <li><a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">The road to school</a>, as part of <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a></li>
             <li><a href="https://kalli-retzepi.com/samtous/" target="_blank">samtous.wtf</a></li>
             <li><a href="https://www.interactivethings.com/work/explora/" target="_blank">Explora</a>, as part of <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a></li>
           </ul>
