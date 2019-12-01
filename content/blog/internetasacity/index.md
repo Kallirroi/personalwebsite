@@ -7,8 +7,9 @@ tag: project
 imagePath: internetascity
 ---
 
+![website](internetascity.gif)
 
-*Images for the GIF in the previous page are from [this](https://www.are.na/kalli-retzepi/internet-as-a-city) are.na channel (where you can find their attributions).*
+*GIF visuals are taken from [this](https://www.are.na/kalli-retzepi/internet-as-a-city) are.na channel (where you can find their attributions).*
 
 #### Personal research  
 This project is an ongoing research exploration of the following questions: Is everything humans inhabit turned into a "city"? How is loss of public space to the digital commons transforming our lived experience of the Internet? How do people, businesses and governing bodies produce insights into the qualitative characteristics of distribution beyond the tired triptych of centralized, decentralized, and distributed?

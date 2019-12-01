@@ -15,7 +15,7 @@ class NotFoundPage extends React.Component {
         <div style={{
                 margin: `0 auto`,
                 width: `70%`,
-              }}> Something went wrong... </div>
+              }}> Nothing is here! </div>
       </Layout>
     )
   }

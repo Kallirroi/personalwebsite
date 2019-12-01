@@ -10,4 +10,4 @@ imagePath: samtous
 
 A nervous <a href="http://samtous.wtf/" target="_blank">portfolio</a> of images and projects, by Sam Ghantous.
 
-![altcaption](mockup.png)
+![altcaption](samtous.gif)

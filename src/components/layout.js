@@ -17,7 +17,7 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let navbar
-    let activeColor = '#80A2BC'
+    let activeColor = '#ff7070'
 
     navbar = (
       <div style={{
@@ -47,10 +47,11 @@ class Layout extends React.Component {
         <main className='main' style={{
           // border: '1px solid',
           display: 'flex',
-          flexDirection: 'row',
+          flexDirection: 'column',
           flexWrap: 'wrap',
-          justifyItems: 'flex-end',
-          alignItems: 'stretch',
+          // justifyItems: 'flex-end',
+          justifyItems: 'flex-start',
+          // alignItems: 'stretch',
           alignContent: 'baseline',
         }}>{children}</main>
       </div>
