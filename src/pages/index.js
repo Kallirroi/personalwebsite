@@ -26,27 +26,27 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I use code, design and words to explore the politics of digital interfaces, the narrative of the user and to imagine new metaphors for the Web. I have degrees in engineering and in neuroscience, and I am a recent alum of the MIT Media Lab. During my time at the Lab I prototyped on a variety of software and hardware projects centered around questions of interfaces, decentralization and social networks.</p>
+          }}>I use code, design and words to explore the <a href="https://kalli-retzepi.com/clickhere/">politics</a> of digital interfaces, the narrative of the <a href="https://kalli-retzepi.com/youtheuser/">user</a> and to imagine new <a href="https://kalli-retzepi.com/internetasacity/">metaphors for the Web</a>. I have degrees in engineering and in neuroscience, and I am a recent alum of the MIT Media Lab. During my time at the Lab I prototyped on a variety of software and hardware projects centered around questions of <a href="https://kalli-retzepi.com/thesis/">interfaces</a>, <a href="https://kalli-retzepi.com/medrec/">decentralization</a> and networks.</p>
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>In the past I have worked as an interaction designer for Interactive Things, a Zurich-based studio that specializes in all sorts of web design and development as well as data visualization. Before that I helped build tools for medical imaging researchers and radiologists in training at MGH and Harvard Medical School, as well as develop an online learning platform on behalf of Harvard School of Engineering.</p>  
+          }}>In the past I have worked as an interaction <a href="https://www.interactivethings.com/work/explora/" target="_blank">designer</a> and <a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">developer</a> for <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a>, a Zurich-based web design, development and data visualization studio. Before that I helped build tools for <a href="https://www.martinos.org/">medical imaging researchers</a> and radiologists in training at Massachussets General Hospital and Harvard Medical School, as well as develop an online learning platform on behalf of <a href="https://vcg.seas.harvard.edu/">Visual Computing Group at Harvard</a>.</p>  
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I am currently working as a web design and dev freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
+          }}>I am currently working as a <a href="https://kalli-retzepi.com/PROPS/" target="_blank">web design</a> and development freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
 
           <h4 style={{
             marginTop: rhythm(2),
-          }}>selected web-based work</h4>
+          }}>contact</h4>
           <ul style={{
                   listStyleType: 'none',
                   lineHeight: '22px'
                 }}>
-            <li><a href="https://kalli-retzepi.com/PROPS/" target="_blank">PROPS</a></li>
-            <li><a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">The road to school</a>, as part of <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a></li>
-            <li><a href="https://kalli-retzepi.com/samtous/" target="_blank">samtous.wtf</a></li>
-            <li><a href="https://www.interactivethings.com/work/explora/" target="_blank">Explora</a>, as part of <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a></li>
+            <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
+            <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
+            <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
+            <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
           </ul>
 
           <h4 style={{
@@ -83,20 +83,6 @@ class BlogIndex extends React.Component {
             <li><a href="https://www.artupon.com/kalli-retzepi/">ArtUpon</a> feature</li>
             <li><a href="https://velveteyes.net/features/kalli-retzepi/">VelvetEyes</a> feature</li>
             <li><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/">C41</a> Magazine feature</li>
-          </ul>
-
-
-          <h4 style={{
-            marginTop: rhythm(2),
-          }}>contact</h4>
-          <ul style={{
-                  listStyleType: 'none',
-                  lineHeight: '22px'
-                }}>
-            <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
-            <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
-            <li><a href="https://twitter.com/kallirroi" target="_blank">twitter</a></li>
-            <li><a href="https://www.instagram.com/kallirroi/" target="_blank">instagram</a></li>
           </ul>
 
         </div>
