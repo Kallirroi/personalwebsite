@@ -30,11 +30,11 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>In the past I have worked as an interaction <a href="https://www.interactivethings.com/work/explora/" target="_blank">designer</a> and <a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">developer</a> for <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a>, a Zurich-based web design, development and data visualization studio. Before that I helped build tools for <a href="https://www.martinos.org/">medical imaging researchers</a> and radiologists in training at Massachussets General Hospital and Harvard Medical School, as well as develop an online learning platform on behalf of <a href="https://vcg.seas.harvard.edu/">Visual Computing Group at Harvard</a>.</p>  
+          }}>In the past I have worked as an interaction <a href="https://www.interactivethings.com/work/explora/" target="_blank">designer</a> and <a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">developer</a> for <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a>, a Zurich-based web design, development and data visualization studio. Before that I built tools for <a href="https://www.martinos.org/">medical imaging researchers</a> and radiologists at Massachussets General Hospital and Harvard Medical School. Recent freelance involves iterating on the design of an online learning platform on behalf of <a href="https://vcg.seas.harvard.edu/">Visual Computing Group at Harvard</a>, helping the MIT Center for Advanced Urbanism develop an <a href='http://lcau.mit.edu/project/atlas-lighting'>interactive atlas</a> that explores how lighting in US metro areas relates to social public good, and designing/building the website for a friend's <a href="https://kalli-retzepi.com/PROPS/" target="_blank">online publication</a>.</p>  
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I am currently working as a <a href="https://kalli-retzepi.com/PROPS/" target="_blank">web design</a> and development freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
+          }}>I am currently working as a web design and development freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
 
           <h4 style={{
             marginTop: rhythm(2),

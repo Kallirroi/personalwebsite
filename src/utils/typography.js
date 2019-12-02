@@ -7,7 +7,7 @@ const options = {
       'h1,h2,h3,h4,h5,h6, div, p, a, span': {
         fontFamily: `'Standard', 'Inter UI', 'Helvetica Neue', 'sans-serif'`,
         fontSize: '13px',
-        lineHeight: '16px',
+        lineHeight: '18px',
       },
       'a': {
         textDecoration: 'none',
