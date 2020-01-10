@@ -34,7 +34,7 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I am currently working as a web design and development freelancer out of Brooklyn, NY, and I am also part of an artists collective called FOREIGN OBJECTS. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
+          }}>I am currently working as a web design and development freelancer out of Brooklyn, NY, teaching at the School for Visual Arts and finally I also part of an artists collective called <a href="https://foreignobjects.net/" target="_blank"> FOREIGN OBJECTS </a>. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
 
           <h4 style={{
             marginTop: rhythm(2),
