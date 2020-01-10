@@ -2,7 +2,7 @@
 title: internet as an object
 date: "2015-05-06T23:46:37.121Z"
 description: A set of playful physical objects forming a hyper-local network (Media Lab final project).
-index: 1
+index: 2
 tag: project
 imagePath: thesis
 ---
