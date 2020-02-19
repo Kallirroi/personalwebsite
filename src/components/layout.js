@@ -24,7 +24,7 @@ class Layout extends React.Component {
         margin: '0 auto',
       }}>
         <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/`}> about </Link>
-        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/projects/`}>projects </Link>
+        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/projects/`}>previous work </Link>
       </div>
     )
     return (

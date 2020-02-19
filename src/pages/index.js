@@ -26,22 +26,17 @@ class BlogIndex extends React.Component {
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>I use code, design and words to explore the <a href="https://kalli-retzepi.com/clickhere/">politics</a> of digital interfaces, the narrative of the <a href="https://kalli-retzepi.com/youtheuser/">user</a> and to imagine new <a href="https://kalli-retzepi.com/internetasacity/">metaphors for the Web</a>. I have degrees in engineering and in neuroscience, and I am a recent alum of the MIT Media Lab. During my time at the Lab I prototyped on a variety of software and hardware projects centered around questions of <a href="https://kalli-retzepi.com/thesis/">interfaces</a>, <a href="https://kalli-retzepi.com/medrec/">decentralization</a> and networks.</p>
+          }}>I use code, design and words to explore the <a href="https://kalli-retzepi.com/clickhere/">politics</a> of digital interfaces, the narrative of the <a href="https://kalli-retzepi.com/youtheuser/">user</a> and to imagine new <a href="https://kalli-retzepi.com/internetasacity/">metaphors for the Web</a>.</p>
 
           <p style={{
             marginBottom: rhythm(1),
-          }}>In the past I have worked as an interaction <a href="https://www.interactivethings.com/work/explora/" target="_blank">designer</a> and <a href="https://kalli-retzepi.com/roadtoschool/" target="_blank">developer</a> for <a href="https://www.interactivethings.com/" target="_blank">Interactive Things</a>, a Zurich-based web design, development and data visualization studio. Before that I built tools for <a href="https://www.martinos.org/">medical imaging researchers</a> and radiologists at Massachussets General Hospital and Harvard Medical School. Recent freelance involves iterating on the design of an online learning platform on behalf of <a href="https://vcg.seas.harvard.edu/">Visual Computing Group at Harvard</a>, helping the MIT Center for Advanced Urbanism develop an <a href='http://lcau.mit.edu/project/atlas-lighting'>interactive atlas</a> that explores how lighting in US metro areas relates to social public good, and designing/building the website for a friend's <a href="https://kalli-retzepi.com/PROPS/" target="_blank">online publication</a>.</p>  
-
-          <p style={{
-            marginBottom: rhythm(1),
-          }}>I am currently working as a web design and development freelancer out of Brooklyn, NY, teaching at the School for Visual Arts and finally I also part of an artists collective called <a href="https://foreignobjects.net/" target="_blank"> FOREIGN OBJECTS </a>. Feel free to <a href="mailto:kalli.retzepi@gmail.com" target="_blank">get in touch</a> about work inquiries.</p>
+          }}>I am currently part of the 20' Spring 1 cohort at the <a href="https://www.recurse.com">Recurse Center</a>, adjunct faculty at the School for Visual Arts in NYC and one of the co-founders of <a href="https://foreignobjects.net/" target="_blank"> FOREIGN OBJECTS </a>. Before that, I was a graduate student at the Media Lab at MIT.</p>
 
           <h4 style={{
-            marginTop: rhythm(2),
+            marginTop: rhythm(1),
           }}>contact</h4>
           <ul style={{
                   listStyleType: 'none',
-                  lineHeight: '22px'
                 }}>
             <li><a href="mailto:kalli.retzepi@gmail.com" target="_blank">email</a></li>
             <li><a href="https://www.are.na/kalli-retzepi/index" target="_blank">are.na</a></li>
@@ -50,12 +45,13 @@ class BlogIndex extends React.Component {
           </ul>
 
           <h4 style={{
-            marginTop: rhythm(2),
-          }}>talks / workshops / exhibits </h4>
+            marginTop: rhythm(1),
+          }}>talks / workshops / exhibits / residencies </h4>
           <ul style={{
-                  listStyleType: 'none',
-                  lineHeight: '22px'
+                  listStyle: 'circle inside',
                 }}>
+            <li>(as FOREIGN OBJECTS) Bard Graduate Center Digital Artist in Residence, 2020</li>                 
+            <li>Digital Economies Lab program participant, with the support of the Canada Council for the Arts in partership with HOLO Magazine, 2020</li>
             <li><a href="https://kalli-retzepi.com/patentaesthetic/">Patent aesthetic</a> featured at zine for the first <a href="https://www.computermouseconference.net/">Computer Mouse Conference</a> at NYU ITP, 2019</li>            
             <li><a href="https://kalli-retzepi.com/clickhere/">clickHere</a>,  presentation for <a href="https://www.eventbrite.com/e/code-kitchen-lecture-series-kate-hollenbach-kalli-retzepi-tickets-78128479385">CODE KITCHEN</a> at Parsons AMT Design + Technology, 2019</li>
             <li>Invited reviewer for <a href="https://www.are.na/lucy-siyao-liu/cd-workshop-staging-practice-with-props">Staging Practice</a> by Matthew Bohne and Lucy Liu at the New School, 2019</li>
@@ -70,11 +66,10 @@ class BlogIndex extends React.Component {
 
 
           <h4 style={{
-            marginTop: rhythm(2),
+            marginTop: rhythm(1),
           }}>online </h4>
           <ul style={{
-                  listStyleType: 'none',
-                  lineHeight: '22px'
+                  listStyle: 'circle inside'
                 }}>
             <li><a href="https://walkerart.org/magazine/soundboard-reenvisioning-internet-gary-zhexi-zhang">clickhere</a> - Reinvisioning the Internet, by Gary Zhexi Zhang</li>
             <li><a href="http://www.internetactu.net/2019/01/14/retro-design-de-lattention-cest-complique/">the quiet spaces</a> - Rétro-design de l’attention, by Hubert Guillaud</li>
