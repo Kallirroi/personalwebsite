@@ -1,3 +1,0 @@
-// custom typefaces
-exports.onInitialClientRender = () => {
-};

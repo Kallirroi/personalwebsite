@@ -1,62 +1,41 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "Personal portfolio",
+  "name": "kalli-retzepi-clean",
+  "author": "kalli retzepi",
   "version": "0.1.0",
-  "author": "Kalli",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "private": true,
   "dependencies": {
-    "gatsby": "^2.13.28",
-    "gatsby-cli": "^2.8.6",
-    "gatsby-core-utils": "^1.0.16",
-    "gatsby-image": "^2.2.6",
-    "gatsby-plugin-feed": "^2.3.4",
-    "gatsby-plugin-google-analytics": "^2.1.4",
-    "gatsby-plugin-manifest": "^2.2.3",
-    "gatsby-plugin-offline": "^2.2.4",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "gatsby-plugin-sharp": "^2.2.8",
-    "gatsby-plugin-typography": "^2.3.2",
-    "gatsby-remark-copy-linked-files": "^2.1.3",
-    "gatsby-remark-images": "^3.1.6",
-    "gatsby-remark-prismjs": "^3.3.3",
-    "gatsby-remark-responsive-iframe": "^2.2.4",
-    "gatsby-remark-smartypants": "^2.1.2",
-    "gatsby-source-filesystem": "^2.1.5",
-    "gatsby-transformer-remark": "^2.6.7",
-    "gatsby-transformer-sharp": "^2.2.4",
-    "prismjs": "^1.16.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "react-tooltip-lite": "^1.10.0",
-    "react-typography": "^0.16.19",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75",
-    "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-ga": "^2.7.0",
+    "react-scripts": "3.4.0",
+    "typescript": "~3.7.2"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
