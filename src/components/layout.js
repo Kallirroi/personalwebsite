@@ -1,32 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Layout extends React.Component {
-
-  constructor(props) {
-    super(props)
-    this.state = {
-      weirdLayout: false,
-      layoutText: ''
-    }
-  }
-
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    let navbar
-    let activeColor = '#ff7070'
 
-    navbar = (
-      <div style={{
-        margin: '0 auto',
-      }}>
-        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/`}> about </Link>
-        <Link activeStyle={{ color: activeColor, fontWeight: '600' }} style={{margin: rhythm(1), borderBottom: '0'}} to={`/projects/`}>previous work </Link>
-      </div>
-    )
     return (
       <div className='container'
         style={{
@@ -36,23 +17,8 @@ class Layout extends React.Component {
           paddingBottom: rhythm(3)
         }}
       >
-        <div className='navbar' style={{
-          // border: '1px solid',
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'nowrap',
-          padding: rhythm(2)
-        }}>{navbar}</div>
-
         <main className='main' style={{
-          // border: '1px solid',
-          display: 'flex',
-          flexDirection: 'column',
-          flexWrap: 'wrap',
-          // justifyItems: 'flex-end',
-          justifyItems: 'flex-start',
-          // alignItems: 'stretch',
-          alignContent: 'baseline',
+          border: '1px solid',
         }}>{children}</main>
       </div>
     )
